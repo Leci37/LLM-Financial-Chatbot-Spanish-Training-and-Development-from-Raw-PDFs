@@ -1,15 +1,12 @@
-# Documentación para el Desarrollo de un Chatbot Financiero con Modelos LLM
+### Documentación para el Desarrollo de un Chatbot Financiero con Modelos LLM
 
-Este proyecto tiene como objetivo construir un chatbot basado en modelos de lenguaje LLM en español para responder consultas relacionadas con productos financieros de una entidad bancaria. El chatbot debe procesar documentación en formatos PDF diversos, convertirla en datos estructurados y ofrecer respuestas precisas a preguntas formuladas por empleados y clientes.
+Este proyecto tiene como objetivo construir un chatbot basado en modelos de **lenguaje LLM en español** para responder consultas relacionadas con productos financieros de una entidad bancaria. El chatbot debe procesar documentación en formatos PDF diversos, convertirla en datos estructurados y ofrecer respuestas precisas a preguntas formuladas por empleados y clientes.
 
 ## **Alcance del Proyecto**
 
 - **Funcionalidades del Chatbot:**
   - Capacidad para responder preguntas sobre:
-    - **Transferencias internacionales**
-    - **Fondos de inversión**
-    - **Préstamos activos**
-    - **Opciones de inversión**
+    - **Transferencias internacionales** , **Fondos de inversión**, **Préstamos activos** y **Opciones de inversión**
 
 - **Fuente de Datos:**
   - Documentos PDF proporcionados en formatos heterogéneos, organizados en la carpeta `raw/`:
@@ -35,7 +32,5 @@ Este proyecto tiene como objetivo construir un chatbot basado en modelos de leng
 
 3. **Préstamos Activos:**
    - ¿Qué requisitos hay que cumplir para solicitar un préstamo postgrado?
-
----
 
 Este chatbot será una herramienta útil para empleados y clientes, simplificando la obtención de información financiera y mejorando la experiencia del usuario.
