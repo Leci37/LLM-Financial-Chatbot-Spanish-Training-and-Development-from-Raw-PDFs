@@ -5,11 +5,7 @@ This project aims to build a chatbot based on LLM models in Spanish to answer qu
 ## **Project Scope**
 
 - **Chatbot Features:**
-  - Ability to answer questions about:
-    - **International Transfers**
-    - **Investment Funds**
-    - **Active Loans**
-    - **Investment Options**
+  - Ability to answer questions about: **International Transfers**, **Investment Funds**, **Active Loans** and **Investment Options**
 
 - **Data Sources:**
   - Provided PDF documents in diverse formats, organized in the `raw/` folder:
@@ -26,7 +22,7 @@ This project aims to build a chatbot based on LLM models in Spanish to answer qu
     - Structured Tables: titles and organized data.
 
 ## **Example Questions Answered**
-
+the answers to these questions are found inside the .pdf in various formats such as tables
 1. **Transfers outside the Euro Zone:**
    - ¿Puedes calcularme las comisiones para una transferencia fuera de la Zona €, de 10.000€ con las comisiones a cargo del socio?
    _- Can you calculate the fees for a transfer outside the Euro Zone of €10,000 with the fees borne by the partner?_
