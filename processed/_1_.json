@@ -1,0 +1,373 @@
+{
+    "sections": [
+        {
+            "title": "",
+            "content": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA A.- Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante. B.- Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante. C.- Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante. D.- En caso de gastos Courier, se repercutirá al cliente. E.- En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente. F.- Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere. "
+        }
+    ],
+    "tables": [
+        {
+            "title": "Table 1",
+            "data": [
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Canales de emisión",
+                    "Moneda",
+                    "Límite",
+                    "Entidad Beneficiaria",
+                    "Entidad Beneficiaria",
+                    "Comisiones"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "SEPA (No todos los Bancos están adheridos a este sistema)",
+                    "EUR",
+                    "----",
+                    "Nacionales/Internacionales dentro de la UE (El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "Nacionales/Internacionales dentro de la UE (El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "0 €"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "2,5‰\nMín. 10€ Máx. 100€"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "Regulada Reglamento 924/2009",
+                    "2,5‰\nMín. 10€ Máx. 100€"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (OUR)",
+                    "3,5‰\nMín. 6€ Máx. 250"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (SHA/BEN)",
+                    "3,5‰\nMín. 6€ Máx. 250"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Destino a países de la\nU.E. (*)",
+                    "EUR/SEK",
+                    "Hasta 50.000",
+                    "Transferencia Regulada, deben emitirse bajo modalidad SHA, nunca debe ser OUR, dado el caso, el ordenante deberá hacer frente a los costes de la entidad del beneficiario",
+                    "Transferencia Regulada, deben emitirse bajo modalidad SHA, nunca debe ser OUR, dado el caso, el ordenante deberá hacer frente a los costes de la entidad del beneficiario",
+                    "2,0‰\nMín. 2€ Máx. 100"
+                ],
+                [
+                    "TRANSFERENCIAS EMITIDAS",
+                    "Transferencias emitidas por Extranjero, EUR, Resto países y divisas",
+                    "Cualquier moneda con la que se opere regularmente en el mercado",
+                    "",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Según la Modalidad de pago elegida*"
+                ]
+            ]
+        },
+        {
+            "title": "Table 2",
+            "data": [
+                [
+                    "MODALIDAD",
+                    "Gastos emisión (A)",
+                    "Gastos emisión (A)",
+                    "Gastos emisión (A)",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "MODALIDAD",
+                    "0‰",
+                    "Mín.",
+                    "Máx.",
+                    "Gastos Swift",
+                    "Gastos adicionales (B)",
+                    "Observaciones"
+                ],
+                [
+                    "Gastos OUR",
+                    "3,5‰",
+                    "6 €",
+                    "250 €",
+                    "10 €",
+                    "15 € o contravalor de 20 €\npara órdenes en dólares",
+                    "El ordenante pago tanto las comisiones de Caja de Ingenieros como las comisiones que perciba la entidad beneficiaria al abonar la\norden"
+                ],
+                [
+                    "Gastos SHA",
+                    "3,5‰",
+                    "6 €",
+                    "250 €",
+                    "10 €",
+                    "----",
+                    "El ordenante sólo paga las comisiones y gastos de Caja de Ingenieros. El beneficiario soportará las comisiones y gastos de su\nentidad."
+                ],
+                [
+                    "Gastos BEN",
+                    "3,5‰",
+                    "6 €",
+                    "250 €",
+                    "10 €",
+                    "----",
+                    "El ordenante no paga las comisiones de Caja de Ingenieros, sino que se deducen del importe a transferir al beneficiario. Los gastos y comisiones de la entidad del beneficiario las asumirá el\nbeneficiario."
+                ]
+            ]
+        },
+        {
+            "title": "Table 3",
+            "data": [
+                [
+                    "ANULACIONES",
+                    "Canales de emisión",
+                    "Moneda",
+                    "Límite",
+                    "Entidad Beneficiaria",
+                    "Entidad Beneficiaria",
+                    "Comisiones"
+                ],
+                [
+                    "ANULACIONES",
+                    "SEPA (No todos los Bancos están adheridos a este sistema)",
+                    "EUR",
+                    "----",
+                    "Nacionales/Internacionales dentro de la U.E.(El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "Nacionales/Internacionales dentro de la U.E.(El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "0 €"
+                ],
+                [
+                    "ANULACIONES",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "0 €"
+                ],
+                [
+                    "ANULACIONES",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "Regulada Reglamento 924/2009",
+                    "0 €"
+                ],
+                [
+                    "ANULACIONES",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (OUR)",
+                    "0 €"
+                ],
+                [
+                    "ANULACIONES",
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (SHA/BEN)",
+                    "0 €"
+                ],
+                [
+                    "ANULACIONES",
+                    "A través de Corresponsal",
+                    "Cualquier moneda con la que se opere regularmente en el mercado",
+                    "----",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "45 €"
+                ]
+            ]
+        },
+        {
+            "title": "Table 4",
+            "data": [
+                [
+                    "OTROS CONCEPTOS (C)",
+                    "%",
+                    "Normal",
+                    "Urgente"
+                ],
+                [
+                    "SWIFT",
+                    "----",
+                    "10 €",
+                    "12 €"
+                ],
+                [
+                    "Datos insuficientes o incorrectos",
+                    "----",
+                    "15 €",
+                    "----"
+                ],
+                [
+                    "Transferencias Urgentes Divisa",
+                    "----",
+                    "15 €",
+                    "----"
+                ],
+                [
+                    "Investigación, Modificación o Aclaración",
+                    "----",
+                    "15 €",
+                    "----"
+                ]
+            ]
+        },
+        {
+            "title": "Table 5",
+            "data": [
+                [
+                    "TRANSFERENCIAS RECIBIDAS",
+                    "TRANSFERENCIAS RECIBIDAS",
+                    "Hasta 50.000 euros",
+                    "Superior a 50.000 euros"
+                ],
+                [
+                    "Emitidas en moneda Euro y SEK (Corona Sueca)",
+                    "De países de la Unión Europea (*)",
+                    "Transferencias Recibidas Reguladas Reglamento 924/2009: Sin comisión",
+                    "Comisión de pago: 2,5‰ Mínimo 5 €\nMáximo 250 €"
+                ],
+                [
+                    "Emitidas en moneda Euro y SEK (Corona Sueca)",
+                    "Resto Países",
+                    "Comisión de pago: 2,5‰ Mínimo 5 €\nMáximo 250 €",
+                    "Comisión de pago: 2,5‰ Mínimo 5 €\nMáximo 250 €"
+                ],
+                [
+                    "Resto de Monedas",
+                    "Recibidas en moneda\nExtranjera",
+                    "Comisión de pago: 2,5‰ Mínimo 5 €\nMáximo 250 €",
+                    "Comisión de pago: 2,5‰ Mínimo 5 €\nMáximo 250 €"
+                ]
+            ]
+        },
+        {
+            "title": "Table 6",
+            "data": [
+                [
+                    "CHEQUES EMITIDOS",
+                    "‰",
+                    "Mínimo",
+                    "Máximo"
+                ],
+                [
+                    "Gastos Emisión",
+                    "3,5‰",
+                    "6 €",
+                    "250 €"
+                ]
+            ]
+        },
+        {
+            "title": "Table 7",
+            "data": [
+                [
+                    "NEGOCIACIÓN DE CHEQUES EN MONEDA EXTRANJERA Y EURO DE N/R (D)",
+                    "‰",
+                    "Mínimo",
+                    "Máximo"
+                ],
+                [
+                    "Comisión Negociación",
+                    "3,0‰",
+                    "5 €",
+                    "250 €"
+                ]
+            ]
+        },
+        {
+            "title": "Table 8",
+            "data": [
+                [
+                    "OPERACIONES DE COMPRA/VENTA DE BILLETES-DIVISA",
+                    "‰",
+                    "Mínimo"
+                ],
+                [
+                    "Operación Billetes Efectivo",
+                    "10,00",
+                    "6 €"
+                ],
+                [
+                    "Operación Billetes Cuenta en EUR",
+                    "0,00",
+                    "0 €"
+                ],
+                [
+                    "Operación Billetes Cuenta en Divisa",
+                    "30,00",
+                    "9 €"
+                ],
+                [
+                    "COMPRA-VENTA DIVISAS CONTADO O A MÁS DE 2 DÍAS HÁBILES",
+                    "‰",
+                    "Mínimo"
+                ],
+                [
+                    "Vinculadas a operaciones comerciales",
+                    "3,00",
+                    "18 €"
+                ],
+                [
+                    "No vinculadas a operaciones comerciales",
+                    "5,00",
+                    "25 €"
+                ]
+            ]
+        },
+        {
+            "title": "Table 9",
+            "data": [
+                [
+                    "REMESAS DOCUMENTARIAS IMPORTACIÓN",
+                    "‰",
+                    "Mínimo"
+                ],
+                [
+                    "Aceptación",
+                    "1,00",
+                    "6 €"
+                ],
+                [
+                    "Recepción de documentos",
+                    "1,50",
+                    "12 €"
+                ],
+                [
+                    "Liquidación",
+                    "5,00",
+                    "18 €"
+                ],
+                [
+                    "Devolución",
+                    "1,50",
+                    "12 €"
+                ]
+            ]
+        }
+    ]
+}

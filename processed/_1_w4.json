@@ -1,0 +1,133 @@
+{
+    "sections": [
+        {
+            "title": "Descripción del Perfil",
+            "content": "Moderado: Este perfil se define como aquel que busca, a medio plazo, rendimientos superiores a los tipos de interés de mercado, aceptando niveles moderados de riesgo. Se pueden generar pérdidas, pero también se busca un crecimiento constante."
+        },
+        {
+            "title": "Top 10 Holdings (%)",
+            "content": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+        },
+        {
+            "title": "Distribución País",
+            "content": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+        },
+        {
+            "title": "Sector - Level 1 and 2 (%)",
+            "content": "La distribución sectorial incluye inversiones significativas en tecnología de la información, salud y servicios financieros. Esto refuerza el enfoque del fondo en sectores innovadores y de alta sostenibilidad."
+        },
+        {
+            "title": "Top 5 Overweight Sub Sectors (%)",
+            "content": "Los subsectores más representados incluyen servicios financieros y biotecnología farmacéutica, reflejando un énfasis en innovación y sostenibilidad. Este enfoque asegura que el fondo prioriza sectores con crecimiento potencial elevado."
+        },
+        {
+            "title": "Top 5 Underweight Sub Sectors (%)",
+            "content": "Los subsectores con menor representación incluyen hardware tecnológico y energía. Estas decisiones de subponderación reflejan un enfoque selectivo basado en criterios de sostenibilidad y desempeño a largo plazo."
+        },
+        {
+            "title": "Market Cap Analysis",
+            "content": "El análisis de capitalización muestra un 83,6% de la cartera en grandes capitalizaciones de más de 50 mil millones de euros, lo que garantiza estabilidad. Las pequeñas capitalizaciones tienen una participación limitada, reduciendo el riesgo."
+        },
+        {
+            "title": "Index / Non-Index Split",
+            "content": "La cartera se divide entre inversiones basadas en el índice MSCI World (17,1%) y aquellas fuera del índice (82,9%). Esto refleja una estrategia diversificada que no depende completamente de índices establecidos."
+        },
+        {
+            "title": "Market Cap Calculations (EUR) - Mills",
+            "content": "Los cálculos de capitalización muestran que la mayor parte del fondo se concentra en grandes empresas, con inversiones mínimas en empresas más pequeñas, lo que asegura estabilidad y enfoque en líderes del mercado."
+        }
+    ],
+    "tables": [
+        {
+            "title": "Top 10 Holdings (%)",
+            "data": [
+                ["Compañía", "Fondo (%)", "Índice (%)", "Diferencia (%)"],
+                ["Bank of Montreal", "4,1%", "0,1%", "3,9%"],
+                ["Novo Nordisk A/S", "4,1%", "0,5%", "3,6%"],
+                ["Deutsche Boerse AG", "4,0%", "0,1%", "4,0%"],
+                ["Alphabet Inc", "3,9%", "1,4%", "2,5%"],
+                ["Visa Inc", "3,9%", "0,7%", "3,2%"],
+                ["Coca-Cola Co/The", "3,9%", "0,4%", "3,5%"],
+                ["Microsoft Corp", "3,9%", "4,1%", "-0,2%"],
+                ["Accenture PLC", "3,8%", "0,4%", "3,5%"],
+                ["S&P Global Inc", "3,8%", "0,2%", "3,6%"],
+                ["WW Grainger Inc", "3,7%", "0,1%", "3,7%"]
+            ]
+        },
+        {
+            "title": "Distribución País",
+            "data": [
+                ["País", "Fondo (%)", "Índice (%)", "+ / -"],
+                ["Estados Unidos", "70,6%", "71,3%", "-0,7%"],
+                ["Francia", "8,5%", "2,8%", "5,7%"],
+                ["Alemania", "5,5%", "2,2%", "3,3%"],
+                ["Dinamarca", "4,1%", "0,9%", "3,2%"],
+                ["Reino Unido", "2,7%", "3,1%", "-0,4%"],
+                ["Países Bajos", "2,9%", "1,5%", "1,4%"]
+            ]
+        },
+        {
+            "title": "Sector - Level 1 and 2 (%)",
+            "data": [
+                ["Sector", "Fondo (%)", "Índice (%)", "+ / -"],
+                ["Tecnología de la Información", "18,6%", "21,7%", "-3,1%"],
+                ["Salud", "17,4%", "12,8%", "4,6%"],
+                ["Consumo Discrecional", "7,2%", "10,8%", "-3,6%"],
+                ["Materiales", "5,8%", "4,0%", "1,8%"],
+                ["Servicios Financieros", "24,8%", "14,9%", "9,8%"]
+            ]
+        },
+        {
+            "title": "Top 5 Overweight Sub Sectors (%)",
+            "data": [
+                ["Subsector", "Fondo (%)", "Índice (%)", "+ / -"],
+                ["Servicios Financieros", "18,5%", "6,3%", "12,2%"],
+                ["Biotecnología Farmacéutica", "17,4%", "8,4%", "9,0%"],
+                ["Consumo Básico", "8,9%", "7,2%", "1,7%"],
+                ["Materiales", "5,8%", "4,0%", "1,8%"],
+                ["Servicios de Comunicación", "5,4%", "7,3%", "-1,9%"]
+            ]
+        },
+        {
+            "title": "Top 5 Underweight Sub Sectors (%)",
+            "data": [
+                ["Subsector", "Fondo (%)", "Índice (%)", "+ / -"],
+                ["Hardware Tecnológico", "3,6%", "6,7%", "-3,2%"],
+                ["Servicios de Salud", "0,0%", "4,4%", "-4,4%"],
+                ["Energía", "0,0%", "5,2%", "-5,2%"],
+                ["Bienes de Consumo", "2,9%", "2,0%", "0,9%"],
+                ["Automóviles y Componentes", "0,0%", "2,8%", "-2,8%"]
+            ]
+        },
+        {
+            "title": "Market Cap Analysis",
+            "data": [
+                ["Market Cap", "Fondo", "Índice", "+ / -"],
+                ["50bln+", "83,6%", "67,3%", "16,3%"],
+                ["25 - 49.99 bln", "10,4%", "14,9%", "-4,4%"],
+                ["10 - 24.99 bln", "1,3%", "12,7%", "-11,4%"],
+                ["5 - 9.99 bln", "2,9%", "4,0%", "-1,0%"],
+                ["2 - 4.99 bln", "0,0%", "0,5%", "-0,5%"]
+            ]
+        },
+        {
+            "title": "Index / Non-Index Split",
+            "data": [
+                ["Categoría", "Fondo (%)", "Índice (%)"],
+                ["MSCI World", "17,1%", "100,0%"],
+                ["Non Index", "82,9%", "0,0%"]
+            ]
+        },
+        {
+            "title": "Market Cap Calculations (EUR) - Mills",
+            "data": [
+                ["Categoría", "Fondo (%)", "Índice (%)"],
+                ["500 - 999 m", "1,7%", "0,0%"],
+                ["250 - 499 m", "0,0%", "0,0%"],
+                ["100 - 249 m", "0,0%", "0,0%"],
+                ["50 - 99 m", "0,0%", "0,0%"],
+                ["0 - 49 m", "0,0%", "0,0%"]
+            ]
+        }
+    ]
+}

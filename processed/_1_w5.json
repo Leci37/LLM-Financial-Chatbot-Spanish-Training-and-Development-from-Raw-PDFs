@@ -1,0 +1,103 @@
+{
+    "sections": [
+        {
+            "title": "CI Environment ISR - Cartera Renta Fija - Análisis & Allocation",
+            "content": "La cartera de renta fija del fondo se centra en emisores con alta convicción, manteniendo una duración promedio de 3,19 años y un vencimiento promedio de 3,66 años. La calidad crediticia de la cartera es sólida, con una TIR media de 3,96%, lo que refleja una estrategia bien diversificada y balanceada en términos de riesgo y retorno."
+        },
+        {
+            "title": "Comentario General sobre la Cartera",
+            "content": "La estrategia del fondo prioriza una sobreponderación en crédito frente a deuda pública debido a diferenciales de crédito que se consideran atractivos en el mercado actual. Con un 91,2% de la cartera denominada en euros, se mantiene una exposición prudente y alineada con las condiciones del mercado europeo."
+        }
+    ],
+    "tables": [
+        {
+            "title": "Geographic Allocation - Distribución Geográfica del Fondo",
+            "data": [
+                ["País", "Fondo (%)"],
+                ["España", "14,91"],
+                ["Francia", "16,25"],
+                ["Alemania", "0,00"],
+                ["Países Bajos", "2,95"],
+                ["Suiza", "2,48"],
+                ["Italia", "5,30"],
+                ["Portugal", "1,12"],
+                ["Bélgica", "1,64"],
+                ["Reino Unido", "11,89"],
+                ["Suecia", "6,66"],
+                ["Dinamarca", "5,24"],
+                ["Estados Unidos", "9,84"]
+            ]
+        },
+        {
+            "title": "Currency Allocation - Distribución por Divisas",
+            "data": [
+                ["Divisa", "Fondo (%)"],
+                ["EUR", "91,2"],
+                ["USD", "6,1"],
+                ["AUD", "0,0"],
+                ["GBP", "0,0"],
+                ["CHF", "0,0"]
+            ]
+        },
+        {
+            "title": "Rating Distribution - Distribución por Calificación Crediticia",
+            "data": [
+                ["Rating", "Fondo (%)"],
+                ["AAA", "0,0"],
+                ["AA+", "0,0"],
+                ["AA", "2,7"],
+                ["A+", "2,3"],
+                ["A", "7,9"],
+                ["A-", "23,9"],
+                ["BBB+", "11,7"],
+                ["BBB", "31,9"],
+                ["BB+", "4,2"],
+                ["NR", "4,8"]
+            ]
+        },
+        {
+            "title": "Maturity Distribution - Distribución por Vencimientos",
+            "data": [
+                ["Periodo (años)", "Fondo (%)"],
+                ["0 - 1", "4,3"],
+                ["1 - 2", "11,5"],
+                ["2 - 3", "14,7"],
+                ["3 - 4", "23,0"],
+                ["4 - 5", "19,4"],
+                ["5 - 6", "9,5"],
+                ["6 - 7", "8,6"],
+                ["7 - 8", "3,4"]
+            ]
+        },
+        {
+            "title": "Sector Allocation - Distribución por Sectores",
+            "data": [
+                ["Sector", "Fondo (%)"],
+                ["Gobierno", "6,39"],
+                ["Consumo cíclico", "3,59"],
+                ["Consumo no cíclico", "13,85"],
+                ["Financiero", "53,73"],
+                ["Energía", "1,93"],
+                ["Comunicaciones", "8,56"],
+                ["Industrial", "8,08"],
+                ["Servicios públicos", "1,12"]
+            ]
+        },
+        {
+            "title": "Coupon Type Allocation - Distribución por Tipo de Cupón",
+            "data": [
+                ["Tipo de Cupón", "Fondo (%)"],
+                ["Fijo", "82,45"],
+                ["Variable", "1,11"],
+                ["Cupón cero", "0,00"]
+            ]
+        },
+        {
+            "title": "Fixed Income Portfolio Summary - Resumen de Cartera de Renta Fija",
+            "data": [
+                ["Rating", "Vencimiento Promedio (años)", "Duración Modificada (años)", "Cupón Medio (%)", "TIR Media (%)"],
+                ["BBB", "3,66", "3,19", "2,20", "3,96"]
+            ]
+        }
+    ]
+}

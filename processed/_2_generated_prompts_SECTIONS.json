@@ -1,0 +1,882 @@
+[
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización BIC según 'transferencias extrangero Para transferencias No STP'?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de BIC en el contexto de esta sección?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene BIC?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero Para transferencias No STP' con otras secciones del documento?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "Para las transferencias no STP IBP, ¿ qué tipo de transferencia por satélite se utiliza?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿ Qué significa \" Straight Through Processing \"?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre completo para las transferencias no STP?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "Para las transferencias no STP, ¿ qué tipo de comisión requiere una comisión adicional?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿ Cómo se informa a los ordenantes de transferencias no STP?",
+        "response": "Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'transferencias extrangero Si estos gastos superan'?",
+        "response": "Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'transferencias extrangero Si estos gastos superan'?",
+        "response": "Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero Si estos gastos superan' con otras secciones del documento?",
+        "response": "Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'transferencias extrangero Si estos gastos superan'?",
+        "response": "Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'transferencias extrangero el gasto superan el importe mencionado'?",
+        "response": "Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'transferencias extrangero el gasto superan el importe mencionado'?",
+        "response": "Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero el gasto superan el importe mencionado' con otras secciones del documento?",
+        "response": "Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'transferencias extrangero el gasto superan el importe mencionado'?",
+        "response": "Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero En caso de gastos Courier' con otras secciones del documento?",
+        "response": "En caso de gastos Courier, se repercutirá al cliente."
+    },
+    {
+        "prompt": "¿ Qué tipo de transferencias se producen cuando el cliente tiene un contrato con el cliente del cliente?",
+        "response": "En caso de gastos Courier, se repercutirá al cliente."
+    },
+    {
+        "prompt": "En el caso de los clientes, ¿ en qué cargo se influirá la declaración de gasto?",
+        "response": "En caso de gastos Courier, se repercutirá al cliente."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'transferencias extrangero En caso de impago por'?",
+        "response": "En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'transferencias extrangero En caso de impago por'?",
+        "response": "En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero En caso de impago por' con otras secciones del documento?",
+        "response": "En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'transferencias extrangero En caso de impago por'?",
+        "response": "En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'transferencias extrangero Serán a cargo del cliente'?",
+        "response": "Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'transferencias extrangero Serán a cargo del cliente'?",
+        "response": "Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero Serán a cargo del cliente' con otras secciones del documento?",
+        "response": "Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'transferencias extrangero Serán a cargo del cliente'?",
+        "response": "Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de las transferencias de dinero a cargo del cliente?",
+        "response": "Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'transferencias extrangero En vigor a partir del'?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'transferencias extrangero En vigor a partir del'?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'transferencias extrangero En vigor a partir del' con otras secciones del documento?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'transferencias extrangero En vigor a partir del'?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿ Qué tipo de transferencias de fondos están en vigor?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de la forma en que se emiten las órdenes de pago?",
+        "response": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Caja Ingenieros Environment ISR según 'Introducción al fondo'?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Caja Ingenieros Environment ISR en el contexto de esta sección?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Caja Ingenieros Environment ISR?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Introducción al fondo'?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Introducción al fondo'?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Introducción al fondo' con otras secciones del documento?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Introducción al fondo'?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿ Qué tipo de Fondo está dedicado a la investigación y el desarrollo de proyectos?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de la compañía que está planeando invertir en la industria del medio ambiente?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿ Qué tipo de Fondo está dedicado a invertir en el sector solar?",
+        "response": "El fondo Caja Ingenieros Environment ISR, FI, lanzado en marzo de 2017, está diseñado para invertir en empresas que priorizan su impacto medioambiental. Este fondo está orientado a compañías líderes en la lucha contra el cambio climático, que innovan en la reducción del consumo energético, generación de energía limpia y reducción de emisiones contaminantes."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Enfoque ético del fondo'?",
+        "response": "Adicionalmente, las empresas seleccionadas deben destacar en aspectos sociales y de gobierno corporativo. Esto posiciona al fondo como una opción ética o ISR (Inversión Socialmente Responsable), ofreciendo a los inversores una alternativa sostenible alineada con valores éticos."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Enfoque ético del fondo'?",
+        "response": "Adicionalmente, las empresas seleccionadas deben destacar en aspectos sociales y de gobierno corporativo. Esto posiciona al fondo como una opción ética o ISR (Inversión Socialmente Responsable), ofreciendo a los inversores una alternativa sostenible alineada con valores éticos."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Enfoque ético del fondo' con otras secciones del documento?",
+        "response": "Adicionalmente, las empresas seleccionadas deben destacar en aspectos sociales y de gobierno corporativo. Esto posiciona al fondo como una opción ética o ISR (Inversión Socialmente Responsable), ofreciendo a los inversores una alternativa sostenible alineada con valores éticos."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización CI Environment ISR según 'Detalles del fondo'?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de CI Environment ISR en el contexto de esta sección?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene CI Environment ISR?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Comisiones según 'Detalles del fondo'?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Comisiones en el contexto de esta sección?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Comisiones?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Detalles del fondo'?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Detalles del fondo'?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Detalles del fondo' con otras secciones del documento?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Detalles del fondo'?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre completo del fondo?",
+        "response": "Nombre del fondo: CI Environment ISR, FI. Inversión mínima: 500 euros. Comisiones: 1,35% + 9% / 0,20%. Vocación CNMV: RVM Internacional."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Renta Variable Mixta Internacional según 'Política de inversión: Benchmark y universo'?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Renta Variable Mixta Internacional en el contexto de esta sección?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Renta Variable Mixta Internacional?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en RE100?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de RE100 las acciones mencionadas en 'Política de inversión: Benchmark y universo'?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación RE100 según este documento?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Política de inversión: Benchmark y universo'?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Política de inversión: Benchmark y universo'?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Política de inversión: Benchmark y universo' con otras secciones del documento?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Política de inversión: Benchmark y universo'?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre completo de la política de inversión?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Bajo qué está categorizado el fondo?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Cuál es la calificación mínima para el fondo CDCI?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Cuál es el índice de inversión más alto registrado?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre del informe de investigación que clasifica a las empresas como el MSCI, DJ y CDO?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre del índice que clasifica a las empresas incluidas en el Índice BCII?",
+        "response": "Benchmark: El fondo está categorizado bajo Renta Variable Mixta Internacional (RV Mixta Internacional). Universo de inversión: El fondo incluye empresas listadas en índices como el MSCI World (con una calificación mínima de 3 según el proyecto CDP), RE100, Stoxx Global Reported Low Carbon y DJ Sustainability World Enlarged."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización BBB según 'Distribución de la inversión'?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de BBB en el contexto de esta sección?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene BBB?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Además las acciones mencionadas en 'Distribución de la inversión'?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿ Cuál es el rango de exposición a la luz fija?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿ Cuál es un ejemplo de una inversión de renta fija?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿ Cuál es la duración máxima de los instrumentos de renta fija?",
+        "response": "La exposición a renta variable oscila entre el 50% y el 75%, mientras que el resto se destina a renta fija. Las inversiones en renta fija deben tener al menos un 70% de calidad crediticia BBB. Se permite una exposición de hasta un 30% en emisores emergentes y un máximo del 10% en IIC sostenibles. Además, no existen limitaciones de divisa y la duración máxima de los instrumentos de renta fija es de 4 años."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización ESG según 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de ESG en el contexto de esta sección?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene ESG?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Compañías según 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Compañías en el contexto de esta sección?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Compañías?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Empresas según 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Empresas en el contexto de esta sección?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Empresas?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Criterios del universo de inversión' con otras secciones del documento?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Criterios del universo de inversión'?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre dado a las empresas que cumplen con los estándares de estándares de inversión?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Cuál es la abreviatura de una empresa que cumple un criterios específicos de sostenibilidad?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre del índice de inversión CDP relacionado con las emisiones de datos?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Quién está comprometido con promover el uso de energía 100 renovable?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Qué compromiso promueve el uso de energía 100 renovable?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Quién está a cargo de rastrear sus emisiones de carbono en el índice Stoxx Global Report?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre del índice que identifica oficialmente las emisiones de carbono?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿ Cuál es el índice global que agrupa a las mejores empresas en gestión ambiental?",
+        "response": "El universo de inversión se compone de aproximadamente 937 empresas que cumplen con estándares específicos de sostenibilidad ambiental, social y de gobierno (ESG). - MSCI World con una puntuación CDP de 3 o superior, lo que garantiza que cumplen con los estándares mínimos de publicación de datos sobre emisiones. - Compañías adscritas al compromiso RE100, que promueve el uso de energía 100% renovable. - Empresas listadas en el índice Stoxx Global Reported Low Carbon, reconocidas por comprometerse públicamente a reportar sus emisiones. - DJ Sustainability World Enlarged, índice global que agrupa a las mejores empresas en gestión ambiental, social y de gobernanza corporativa."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Semestralmente?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Semestralmente las acciones mencionadas en 'Revisión del universo de inversión'?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Semestralmente según este documento?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Revisión del universo de inversión'?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Revisión del universo de inversión'?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Revisión del universo de inversión' con otras secciones del documento?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Revisión del universo de inversión'?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿ Cuál es el término dado a las compañías que examinan el valor de una empresa para obtener esta información?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿ Quién proporciona un análisis de scoring ambiental y clasificación de sus compañías?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿ Con qué frecuencia se evalúa la composición del universo?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿ Qué tipo de empresa será eliminada por las reglas que gobiernan el scorg?",
+        "response": "La selección de estas compañías se basa en un análisis de scoring ambiental y total proporcionado por Sustainalytics. Semestralmente, se revisa la composición del universo, mientras que trimestralmente se evalúa el scoring de cada empresa. Aquellas compañías que dejen de cumplir los criterios serán excluidas según la política definida para estrategias ISR."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Ártico?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Ártico las acciones mencionadas en 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Ártico según este documento?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización ONU según 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de ONU en el contexto de esta sección?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene ONU?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización ASG según 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de ASG en el contexto de esta sección?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene ASG?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Política de exclusión' con otras secciones del documento?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Política de exclusión'?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿ Cuál es un ejemplo de una industria que utiliza recursos energéticos como fuentes alternativas de energía?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿ Cuál es el término para los países que excluido del IDH medio o bajo la condición de exclusión?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿ Quién decide en qué medida se excluía a los países con un IDH medio o bajo la influencia de otros?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿ Cuál es el término para las empresas que excluido el desarrollo de empresas con un nivel de controversia?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿ Cuáles son los criterios necesarios para excluir o excluir a las empresas con altos niveles de controversia?",
+        "response": "El fondo aplica una estricta política de exclusión en los casos necesarios, incluyendo: - Criterios ambientales: exclusión de compañías cuya generación de energía dependa en más del 30% del carbón mineral, aquellas que exploren recursos energéticos en el Ártico o que empleen prácticas agresivas de extracción como las arenas bituminosas. - Sectores específicos: exclusión de fabricantes de armas, explosivos, vehículos militares o componentes específicos para la industria militar (con ingresos superiores al 10%). En el sector tabaco, se excluyen fabricantes y empresas con ingresos del 30% o más provenientes de esta industria. - Deuda soberana: exclusión de países con un IDH medio o bajo según la ONU. - Controversias: exclusión de empresas con nivel de controversia 5 en cualquiera de los criterios ASG."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Definición del enfoque ISR'?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Definición del enfoque ISR'?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Definición del enfoque ISR' con otras secciones del documento?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Definición del enfoque ISR'?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de un capítulo de la clasificación de ISR?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿ Cómo se llama la clasificación de ISR?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿ Qué tipo de universo es el fondo reconocido por Spainsif y otras clasificaciones del sector ISR?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿ Quién es responsable de las clasificaciones del sector ISR?",
+        "response": "El fondo tiene la clasificación ISR (Inversión Socialmente Responsable) y sigue criterios éticos basados en aspectos ambientales, sociales y de gobernanza. Forma parte del universo reconocido por Spainsif y otras clasificaciones del sector ISR."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Morningstar según 'Reconocimiento y calificación del fondo'?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Morningstar en el contexto de esta sección?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Morningstar?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización ASG según 'Reconocimiento y calificación del fondo'?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de ASG en el contexto de esta sección?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene ASG?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Reconocimiento y calificación del fondo'?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Reconocimiento y calificación del fondo'?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Reconocimiento y calificación del fondo' con otras secciones del documento?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Reconocimiento y calificación del fondo'?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿ Quién asigna un rating sostenible a la cartera del Fondo?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿ Qué calificación de calidad otorgaría MSCI?",
+        "response": "Una vez publicada la cartera del fondo, se asignará un rating sostenible por Morningstar y una calificación de calidad ASG por MSCI. Esto reafirma su enfoque ético y compromiso con la sostenibilidad."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Marco de inversión: Principios y exposición'?",
+        "response": "Parte A: El fondo aplica principios ISR en sus inversiones, evaluando tanto el desempeño financiero como el impacto ambiental, social y de gobernanza de las empresas seleccionadas. Las inversiones se distribuyen entre renta variable (50-75%) y renta fija, con límites definidos en calidad crediticia y exposición a deuda pública o países emergentes."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Marco de inversión: Principios y exposición'?",
+        "response": "Parte A: El fondo aplica principios ISR en sus inversiones, evaluando tanto el desempeño financiero como el impacto ambiental, social y de gobernanza de las empresas seleccionadas. Las inversiones se distribuyen entre renta variable (50-75%) y renta fija, con límites definidos en calidad crediticia y exposición a deuda pública o países emergentes."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Marco de inversión: Principios y exposición' con otras secciones del documento?",
+        "response": "Parte A: El fondo aplica principios ISR en sus inversiones, evaluando tanto el desempeño financiero como el impacto ambiental, social y de gobernanza de las empresas seleccionadas. Las inversiones se distribuyen entre renta variable (50-75%) y renta fija, con límites definidos en calidad crediticia y exposición a deuda pública o países emergentes."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Objetivo del fondo y rentabilidad'?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Objetivo del fondo y rentabilidad'?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Objetivo del fondo y rentabilidad' con otras secciones del documento?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Objetivo del fondo y rentabilidad'?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "¿ Cuáles son los objetivos de los fondos que reciben?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "Invertir la ganancias media anual de los fondos es un ejemplo de qué tipo de clasificación?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "Según Inverco, ¿ quién es la clave para determinar el porcentaje de ganadores de fondos?",
+        "response": "Parte B: El objetivo es superar la rentabilidad media anual de los fondos en la categoría Renta Variable Mixta Internacional según Inverco. Las empresas seleccionadas destacan por su transparencia en la publicación de datos sobre emisiones, su compromiso con la lucha contra el cambio climático y el uso de tecnologías que reducen el consumo de energía fósil."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Introducción' con otras secciones del documento?",
+        "response": "El documento detalla el catálogo de productos activos vigentes de Grupo Adf, diseñado para cubrir diversas necesidades financieras de particulares, autónomos y empresas. Incluye préstamos personales, hipotecarios y productos de financiación especializados, con condiciones adaptadas a cada perfil."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre completo del catálogo de productos activos del Grupo Adf?",
+        "response": "El documento detalla el catálogo de productos activos vigentes de Grupo Adf, diseñado para cubrir diversas necesidades financieras de particulares, autónomos y empresas. Incluye préstamos personales, hipotecarios y productos de financiación especializados, con condiciones adaptadas a cada perfil."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre del catálogo de productos activos actuales de IBM?",
+        "response": "El documento detalla el catálogo de productos activos vigentes de Grupo Adf, diseñado para cubrir diversas necesidades financieras de particulares, autónomos y empresas. Incluye préstamos personales, hipotecarios y productos de financiación especializados, con condiciones adaptadas a cada perfil."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Préstamo Estudiantil Fijo y Postgrado según 'Préstamos Personales'?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Préstamo Estudiantil Fijo y Postgrado en el contexto de esta sección?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Préstamo Estudiantil Fijo y Postgrado?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Préstamos Personales' con otras secciones del documento?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre completo de préstamos personales?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿ Cuáles son las dos maneras en que se puede utilizar el préstamo de préstamos personales?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de la entidad que regula la adquisición de préstamos personales?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de la forma en que los préstamos personales son elegibles para préstamos personales?",
+        "response": "El portafolio de préstamos personales ofrece opciones para necesidades como consumo, inversión en bienes sostenibles y educación. Destacan las siguientes modalidades: - **Préstamo ECO**: Enfocado en energías renovables, vehículos eléctricos o híbridos, y acondicionamiento energético de viviendas. Incluye cambios de ventanas, instalación de paneles solares, iluminación eficiente, entre otros. - **Préstamo Consumo**: Para adquisición de muebles, electrodomésticos y vehículos, así como para otros gastos personales no regulados por la LCCI. - **Préstamo IMAGINA**: Diseñado para jóvenes hasta 30 años, para financiar cursos, viajes y compras tecnológicas. - **Préstamo Estudiantil Fijo y Postgrado**: Para estudiantes y postgraduados, con requisitos de acreditación y plazos preferenciales."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Préstamos Hipotecarios' con otras secciones del documento?",
+        "response": "Los préstamos hipotecarios cubren necesidades de adquisición de viviendas principales y segundas residencias, reformas o inversiones. Entre ellos se incluyen: - **Hipoteca HOGAR**: Para adquisición de primera o segunda residencia, con un LTV máximo de 80%. - **Hipoteca MIXTA y Fija**: Ofrecen plazos de hasta 30 años, con opciones de tipo fijo, variable o mixto según las necesidades. - **Hipoteca UNIVERSAL**: Para adquisición de inmuebles destinados a explotación o inversión. - **Ampliaciones de capital**: Diseñadas para agregar valor a hipotecas existentes, bajo criterios específicos de tasación y uso."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de los préstamos hipotecarios relacionados con la vivienda?",
+        "response": "Los préstamos hipotecarios cubren necesidades de adquisición de viviendas principales y segundas residencias, reformas o inversiones. Entre ellos se incluyen: - **Hipoteca HOGAR**: Para adquisición de primera o segunda residencia, con un LTV máximo de 80%. - **Hipoteca MIXTA y Fija**: Ofrecen plazos de hasta 30 años, con opciones de tipo fijo, variable o mixto según las necesidades. - **Hipoteca UNIVERSAL**: Para adquisición de inmuebles destinados a explotación o inversión. - **Ampliaciones de capital**: Diseñadas para agregar valor a hipotecas existentes, bajo criterios específicos de tasación y uso."
+    },
+    {
+        "prompt": "¿ Cuál es un ejemplo de un negocio hipotecario que cuenta con préstamos hipotecarios?",
+        "response": "Los préstamos hipotecarios cubren necesidades de adquisición de viviendas principales y segundas residencias, reformas o inversiones. Entre ellos se incluyen: - **Hipoteca HOGAR**: Para adquisición de primera o segunda residencia, con un LTV máximo de 80%. - **Hipoteca MIXTA y Fija**: Ofrecen plazos de hasta 30 años, con opciones de tipo fijo, variable o mixto según las necesidades. - **Hipoteca UNIVERSAL**: Para adquisición de inmuebles destinados a explotación o inversión. - **Ampliaciones de capital**: Diseñadas para agregar valor a hipotecas existentes, bajo criterios específicos de tasación y uso."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de una de las Hipotecas con fines de préstamo?",
+        "response": "Los préstamos hipotecarios cubren necesidades de adquisición de viviendas principales y segundas residencias, reformas o inversiones. Entre ellos se incluyen: - **Hipoteca HOGAR**: Para adquisición de primera o segunda residencia, con un LTV máximo de 80%. - **Hipoteca MIXTA y Fija**: Ofrecen plazos de hasta 30 años, con opciones de tipo fijo, variable o mixto según las necesidades. - **Hipoteca UNIVERSAL**: Para adquisición de inmuebles destinados a explotación o inversión. - **Ampliaciones de capital**: Diseñadas para agregar valor a hipotecas existentes, bajo criterios específicos de tasación y uso."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de un tipo de préstamo hipotecario utilizado para agregar valor a hipotecas existentes?",
+        "response": "Los préstamos hipotecarios cubren necesidades de adquisición de viviendas principales y segundas residencias, reformas o inversiones. Entre ellos se incluyen: - **Hipoteca HOGAR**: Para adquisición de primera o segunda residencia, con un LTV máximo de 80%. - **Hipoteca MIXTA y Fija**: Ofrecen plazos de hasta 30 años, con opciones de tipo fijo, variable o mixto según las necesidades. - **Hipoteca UNIVERSAL**: Para adquisición de inmuebles destinados a explotación o inversión. - **Ampliaciones de capital**: Diseñadas para agregar valor a hipotecas existentes, bajo criterios específicos de tasación y uso."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Crédito Profesional y Empresarial según 'Créditos con Garantía Personal y Real'?",
+        "response": "El catálogo incluye créditos respaldados por garantías personales o reales, ideales para circulante y grandes inversiones: - **Crédito Profesional y Empresarial**: Diseñado para autónomos y empresas, con requisitos de documentación económica y avalistas adicionales. - **Crédito Garantía Hipotecaria**: Ofrece financiación respaldada por inmuebles, con un máximo del 70% sobre el valor de tasación. - **Crédito Garantía Valores**: Respaldado por activos como valores mobiliarios, con condiciones específicas de pignoración y porcentajes sobre el valor de mercado."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Crédito Profesional y Empresarial en el contexto de esta sección?",
+        "response": "El catálogo incluye créditos respaldados por garantías personales o reales, ideales para circulante y grandes inversiones: - **Crédito Profesional y Empresarial**: Diseñado para autónomos y empresas, con requisitos de documentación económica y avalistas adicionales. - **Crédito Garantía Hipotecaria**: Ofrece financiación respaldada por inmuebles, con un máximo del 70% sobre el valor de tasación. - **Crédito Garantía Valores**: Respaldado por activos como valores mobiliarios, con condiciones específicas de pignoración y porcentajes sobre el valor de mercado."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Crédito Profesional y Empresarial?",
+        "response": "El catálogo incluye créditos respaldados por garantías personales o reales, ideales para circulante y grandes inversiones: - **Crédito Profesional y Empresarial**: Diseñado para autónomos y empresas, con requisitos de documentación económica y avalistas adicionales. - **Crédito Garantía Hipotecaria**: Ofrece financiación respaldada por inmuebles, con un máximo del 70% sobre el valor de tasación. - **Crédito Garantía Valores**: Respaldado por activos como valores mobiliarios, con condiciones específicas de pignoración y porcentajes sobre el valor de mercado."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Créditos con Garantía Personal y Real' con otras secciones del documento?",
+        "response": "El catálogo incluye créditos respaldados por garantías personales o reales, ideales para circulante y grandes inversiones: - **Crédito Profesional y Empresarial**: Diseñado para autónomos y empresas, con requisitos de documentación económica y avalistas adicionales. - **Crédito Garantía Hipotecaria**: Ofrece financiación respaldada por inmuebles, con un máximo del 70% sobre el valor de tasación. - **Crédito Garantía Valores**: Respaldado por activos como valores mobiliarios, con condiciones específicas de pignoración y porcentajes sobre el valor de mercado."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Credibolsa?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Credibolsa las acciones mencionadas en 'Préstamos y Créditos Especializados'?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Credibolsa según este documento?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Qué información general se describe en la sección 'Préstamos y Créditos Especializados'?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Qué aspectos destacados puedes explicar sobre 'Préstamos y Créditos Especializados'?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Préstamos y Créditos Especializados' con otras secciones del documento?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Puedes proporcionar un resumen detallado de la sección 'Préstamos y Créditos Especializados'?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿ Qué tipo de préstamos se ofrecen en el catálogo de la venta?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de una de las opciones de préstamo que ofrecen a mayores de 70 años?",
+        "response": "El catálogo también incluye productos específicos diseñados para necesidades particulares: - **Credibolsa**: Financiación para la compra de valores en mercados nacionales e internacionales. Incluye requisitos de test de idoneidad y pignoración de valores. - **Hipoteca Inversa**: Dirigida a mayores de 70 años, para obtener ingresos regulares mediante la garantía de su vivienda principal, libre de cargas. - **Créditos Comerciales y Anticipos**: Para anticipar facturas y cubrir circulante, con modalidades para personas físicas y jurídicas."
+    },
+    {
+        "prompt": "¿Cómo se relaciona el contenido de 'Condiciones Generales y Bonificaciones' con otras secciones del documento?",
+        "response": "Cada producto incluye detalles claros sobre intereses, comisiones, plazos y posibles bonificaciones. Las combinaciones de productos como seguros y domiciliaciones permiten reducir comisiones y tasas de interés. Penalizaciones por amortización anticipada y cláusulas de revisión son especificadas en cada caso."
+    },
+    {
+        "prompt": "¿ Cuál es un ejemplo de un producto definido por el que un producto incluye sus costos y tasas de amorificación?",
+        "response": "Cada producto incluye detalles claros sobre intereses, comisiones, plazos y posibles bonificaciones. Las combinaciones de productos como seguros y domiciliaciones permiten reducir comisiones y tasas de interés. Penalizaciones por amortización anticipada y cláusulas de revisión son especificadas en cada caso."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Bank of Montreal según 'Top 10 Holdings (%)'?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Bank of Montreal en el contexto de esta sección?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Bank of Montreal?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Qué servicios destacados ofrece la organización Novo Nordisk según 'Top 10 Holdings (%)'?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Cómo se describe el rol de Novo Nordisk en el contexto de esta sección?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Qué productos financieros exclusivos tiene Novo Nordisk?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de los activos que pertenecen al fondo \" Top 10 \"?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "Junto con el Bank of Montreal, que es una parte importante de la cartera de acciones de FOX?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "Junto con la Bank of Montreal, ¿ qué otra conglomerast está presente en la cartera de acciones del grupo?",
+        "response": "El fondo incluye una distribución de sus 10 principales participaciones, representando un enfoque en sectores clave como tecnología y consumo. Esto refleja un peso total significativo en la cartera, destacando participaciones como Bank of Montreal y Novo Nordisk."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Estados Unidos?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Estados Unidos las acciones mencionadas en 'Distribución País'?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Estados Unidos según este documento?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Francia?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Francia las acciones mencionadas en 'Distribución País'?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Francia según este documento?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Qué operaciones específicas están disponibles en Alemania?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Cómo afectan las normativas de Alemania las acciones mencionadas en 'Distribución País'?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿Qué ventajas ofrece la ubicación Alemania según este documento?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿ Cuál es el rango nacional del Fondo?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿ Cuál es el segundo mayor inversor en Estados Unidos?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "Junto con Francia y Alemania, ¿ cuál es el segundo país más grande?",
+        "response": "La distribución geográfica del fondo muestra una fuerte exposición a Estados Unidos con un 70,6%, seguido de Francia y Alemania. Estas inversiones reflejan el compromiso de diversificación global con un enfoque en economías desarrolladas."
+    },
+    {
+        "prompt": "¿ Cuál es el análisis de riesgo que asegura una estabilidad financiera?",
+        "response": "El análisis de capitalización muestra un 83,6% de la cartera en grandes capitalizaciones de más de 50 mil millones de euros, lo que garantiza estabilidad. Las pequeñas capitalizaciones tienen una participación limitada, reduciendo el riesgo."
+    },
+    {
+        "prompt": "¿ Cuál es una abreviatura de una cartera que tiene una participación mayor en el riesgo?",
+        "response": "El análisis de capitalización muestra un 83,6% de la cartera en grandes capitalizaciones de más de 50 mil millones de euros, lo que garantiza estabilidad. Las pequeñas capitalizaciones tienen una participación limitada, reduciendo el riesgo."
+    },
+    {
+        "prompt": "Aparte del índice MSCI World, ¿ qué índice también se utiliza para las inversiones en el ranking?",
+        "response": "La cartera se divide entre inversiones basadas en el índice MSCI World (17,1%) y aquellas fuera del índice (82,9%). Esto refleja una estrategia diversificada que no depende completamente de índices establecidos."
+    },
+    {
+        "prompt": "¿ Cuál es el nombre de la cantidad de dólares que se asigna a las empresas más pequeñas?",
+        "response": "Los cálculos de capitalización muestran que la mayor parte del fondo se concentra en grandes empresas, con inversiones mínimas en empresas más pequeñas, lo que asegura estabilidad y enfoque en líderes del mercado."
+    },
+    {
+        "prompt": "¿ Cuál es el acrónimo utilizado para describir la cartera de IBM?",
+        "response": "La cartera de renta fija del fondo se centra en emisores con alta convicción, manteniendo una duración promedio de 3,19 años y un vencimiento promedio de 3,66 años. La calidad crediticia de la cartera es sólida, con una TIR media de 3,96%, lo que refleja una estrategia bien diversificada y balanceada en términos de riesgo y retorno."
+    },
+    {
+        "prompt": "¿ Qué porcentaje de la cartera se mantiene estable en euros?",
+        "response": "La estrategia del fondo prioriza una sobreponderación en crédito frente a deuda pública debido a diferenciales de crédito que se consideran atractivos en el mercado actual. Con un 91,2% de la cartera denominada en euros, se mantiene una exposición prudente y alineada con las condiciones del mercado europeo."
+    }
+]

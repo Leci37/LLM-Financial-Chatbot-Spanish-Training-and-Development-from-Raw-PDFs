@@ -1,0 +1,472 @@
+{
+    "sections": [
+        {
+            "title": "transferencias extrangero Para transferencias No STP",
+            "content": "A.- Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante."
+        },
+        {
+            "title": "transferencias extrangero Si estos gastos superan",
+            "content": "B.- Cubren los gastos de la entidad beneficiaria. Si estos gastos superan los 20€, la diferencia se repercutirá al ordenante."
+        },
+        {
+            "title": "transferencias extrangero el gasto superan el importe mencionado",
+            "content": "C.- Si los gastos adeudados por nuestro corresponsal superan el importe mencionado, la diferencia se repercutirá al ordenante."
+        },
+        {
+            "title": "transferencias extrangero En caso de gastos Courier",
+            "content": "D.- En caso de gastos Courier, se repercutirá al cliente."
+        },
+        {
+            "title": "transferencias extrangero En caso de impago por",
+            "content": "E.- En caso de impago por cualquier motivo justificado por el banco pagador, los gastos se repercutirán al cliente."
+        },
+        {
+            "title": "transferencias extrangero Serán a cargo del cliente",
+            "content": "F.- Serán a cargo del cliente, ordenante o cedente los gastos de correo, telegramas, Swift, timbres, intereses, intereses de demora y gastos del corresponsal extranjero, si los hubiere."
+        },
+        {
+            "title": "transferencias extrangero En vigor a partir del",
+            "content": "En vigor a partir del 1-6-2015 TRANSFERENCIAS EMITIDAS Canales actuales para la emisión de órdenes de pago MODALIDAD DE PAGO ELEGIDA "
+        }
+    ],
+    "tables": [
+        {
+            "title": "transferencias extrangero TRANSFERENCIAS EMITIDAS",
+            "data": [
+                [
+                    "SEPA (No todos los Bancos están adheridos a este sistema)",
+                    "EUR",
+                    "----",
+                    "Nacionales/Internacionales dentro de la UE (El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "Nacionales/Internacionales dentro de la UE (El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "0 €"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "2,5‰\nMín. 10€ Máx. 100€"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "Regulada Reglamento 924/2009",
+                    "2,5‰\nMín. 10€ Máx. 100€"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (OUR)",
+                    "3,5‰\nMín. 6€ Máx. 250"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "----",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (SHA/BEN)",
+                    "3,5‰\nMín. 6€ Máx. 250"
+                ],
+                [
+                    "Destino a países de la\nU.E. (*)",
+                    "EUR/SEK",
+                    "Hasta 50.000",
+                    "Transferencia Regulada, deben emitirse bajo modalidad SHA, nunca debe ser OUR, dado el caso, el ordenante deberá hacer frente a los costes de la entidad del beneficiario",
+                    "Transferencia Regulada, deben emitirse bajo modalidad SHA, nunca debe ser OUR, dado el caso, el ordenante deberá hacer frente a los costes de la entidad del beneficiario",
+                    "2,0‰\nMín. 2€ Máx. 100"
+                ],
+                [
+                    "Transferencias emitidas por Extranjero, EUR, Resto países y divisas",
+                    "Cualquier moneda con la que se opere regularmente en el mercado",
+                    "",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Según la Modalidad de pago elegida*"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero MODALIDAD",
+            "data": [
+                [
+                    "MODALIDAD",
+                    "Gastos adicionales (B)",
+                    "Observaciones"
+                ],
+                [
+                    "Gastos OUR",
+                    "15 € o contravalor de 20 €\npara órdenes en dólares",
+                    "El ordenante pago tanto las comisiones de Caja de Ingenieros como las comisiones que perciba la entidad beneficiaria al abonar la\norden"
+                ],
+                [
+                    "Gastos SHA",
+                    "----",
+                    "El ordenante sólo paga las comisiones y gastos de Caja de Ingenieros. El beneficiario soportará las comisiones y gastos de su\nentidad."
+                ],
+                [
+                    "Gastos BEN",
+                    "----",
+                    "El ordenante no paga las comisiones de Caja de Ingenieros, sino que se deducen del importe a transferir al beneficiario. Los gastos y comisiones de la entidad del beneficiario las asumirá el\nbeneficiario."
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero ANULACIONES",
+            "data": [
+                [
+                    "SEPA (No todos los Bancos están adheridos a este sistema)",
+                    "EUR",
+                    "Nacionales/Internacionales dentro de la U.E.(El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "Nacionales/Internacionales dentro de la U.E.(El banco beneficiario tiene que estar adherido al sistema SEPA)",
+                    "0 €"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "Nacionales (OMF-España) Urgentes mismo día",
+                    "0 €"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "Regulada Reglamento 924/2009",
+                    "0 €"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (OUR)",
+                    "0 €"
+                ],
+                [
+                    "Target – 2",
+                    "EUR",
+                    "Internacional (OMT-Fuera del territorio Español) Urgentes mismo día",
+                    "No Regulada (SHA/BEN)",
+                    "0 €"
+                ],
+                [
+                    "A través de Corresponsal",
+                    "Cualquier moneda con la que se opere regularmente en el mercado",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "Entidades de todo el mundo con red de corresponsales",
+                    "45 €"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero TRANSFERENCIAS RECIBIDAS",
+            "data": [
+                [
+                    "Emitidas en moneda Euro y SEK (Corona Sueca)",
+                    "De países de la Unión Europea (*)"
+                ],
+                [
+                    "Emitidas en moneda Euro y SEK (Corona Sueca)",
+                    "Resto Países"
+                ],
+                [
+                    "Resto de Monedas",
+                    "Recibidas en moneda\nExtranjera"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero CHEQUES EMITIDOS",
+            "data": [
+                [
+                    "Gastos Emisión",
+                    "3,5‰",
+                    "6 €",
+                    "250 €"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero NEGOCIACIÓN DE CHEQUES EN MONEDA EXTRANJERA Y EURO DE N/R (D)",
+            "data": [
+                [
+                    "Comisión Negociación",
+                    "3,0‰",
+                    "5 €",
+                    "250 €"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero OPERACIONES DE COMPRA/VENTA DE BILLETES-DIVISA",
+            "data": [
+                [
+                    "Operación Billetes Efectivo",
+                    "10,00",
+                    "6 €"
+                ],
+                [
+                    "Operación Billetes Cuenta en EUR",
+                    "0,00",
+                    "0 €"
+                ],
+                [
+                    "Operación Billetes Cuenta en Divisa",
+                    "30,00",
+                    "9 €"
+                ],
+                [
+                    "COMPRA-VENTA DIVISAS CONTADO O A MÁS DE 2 DÍAS HÁBILES",
+                    "‰",
+                    "Mínimo"
+                ],
+                [
+                    "Vinculadas a operaciones comerciales",
+                    "3,00",
+                    "18 €"
+                ],
+                [
+                    "No vinculadas a operaciones comerciales",
+                    "5,00",
+                    "25 €"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero REMESAS DOCUMENTARIAS IMPORTACIÓN",
+            "data": [
+                [
+                    "Aceptación",
+                    "1,00",
+                    "6 €"
+                ],
+                [
+                    "Recepción de documentos",
+                    "1,50",
+                    "12 €"
+                ],
+                [
+                    "Liquidación",
+                    "5,00",
+                    "18 €"
+                ],
+                [
+                    "Devolución",
+                    "1,50",
+                    "12 €"
+                ]
+            ]
+        },
+        {
+            "title": "transferencias extrangero PAÍSES DE LA UE (28)",
+            "data": [
+                [
+                    "País",
+                    "Cod. ISO",
+                    "Cod.B.E."
+                ],
+                [
+                    "Alemania",
+                    "DE",
+                    "004"
+                ],
+                [
+                    "Austria",
+                    "AT",
+                    "038"
+                ],
+                [
+                    "Bélgica",
+                    "BE",
+                    "017"
+                ],
+                [
+                    "Bulgaria",
+                    "BG",
+                    "068"
+                ],
+                [
+                    "Chipre",
+                    "CY",
+                    "600"
+                ],
+                [
+                    "Croacia",
+                    "HR",
+                    "092"
+                ],
+                [
+                    "Dinamarca",
+                    "DK",
+                    "008"
+                ],
+                [
+                    "Eslovaquia",
+                    "SK",
+                    "063"
+                ],
+                [
+                    "Eslovenia",
+                    "SI",
+                    "091"
+                ],
+                [
+                    "España",
+                    "ES",
+                    "011"
+                ],
+                [
+                    "Estonia",
+                    "EE",
+                    "053"
+                ],
+                [
+                    "Finlandia",
+                    "FI",
+                    "032"
+                ],
+                [
+                    "Francia",
+                    "FR",
+                    "001"
+                ],
+                [
+                    "Grecia",
+                    "GR",
+                    "009"
+                ],
+                [
+                    "Hungría",
+                    "HU",
+                    "064"
+                ],
+                [
+                    "Irlanda",
+                    "IE",
+                    "007"
+                ],
+                [
+                    "Italia",
+                    "IT",
+                    "005"
+                ],
+                [
+                    "Letonia",
+                    "LV",
+                    "054"
+                ],
+                [
+                    "Lituania",
+                    "LT",
+                    "055"
+                ],
+                [
+                    "Luxemburgo",
+                    "LU",
+                    "018"
+                ],
+                [
+                    "Malta",
+                    "MT",
+                    "046"
+                ],
+                [
+                    "Países Bajos",
+                    "NL",
+                    "003"
+                ],
+                [
+                    "Polonia",
+                    "PL",
+                    "060"
+                ],
+                [
+                    "Portugal",
+                    "PT",
+                    "010"
+                ],
+                [
+                    "Reino Unido",
+                    "GB",
+                    "006"
+                ],
+                [
+                    "Rep. Checa",
+                    "CZ",
+                    "061"
+                ],
+                [
+                    "Rumanía",
+                    "RO",
+                    "066"
+                ],
+                [
+                    "Suecia",
+                    "SE",
+                    "030"
+                ]
+            ]
+        },
+
+        {
+            "title": "transferencias extrangero PAÍSES EN CONVENIO CON LA UE",
+            "data": [
+                [
+                    "País",
+                    "Cod. ISO",
+                    "Cod.B.E."
+                ],
+                [
+                    "Noruega",
+                    "NO",
+                    "028"
+                ],
+                [
+                    "Islandia",
+                    "IS",
+                    "024"
+                ],
+                [
+                    "Liechtenstein",
+                    "LI",
+                    "037"
+                ]
+            ]
+        },
+        {
+        "title": "transferencias extrangero OTROS CONCEPTOS (C)",
+            "data": [
+                [
+                    "%",
+                    "Normal",
+                    "Urgente"
+                ],
+                [
+                    "----",
+                    "10 €",
+                    "12 €"
+                ],
+                [
+                    "Datos insuficientes o incorrectos",
+                    "----",
+                    "15 €"
+                ],
+                [
+                    "Transferencias Urgentes Divisa",
+                    "----",
+                    "15 €"
+                ],
+                [
+                    "Investigación, Modificación o Aclaración",
+                    "----",
+                    "15 €"
+                ]
+            ]
+        }
+    ]
+}
