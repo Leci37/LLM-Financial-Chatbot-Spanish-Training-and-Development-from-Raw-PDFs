@@ -2,6 +2,9 @@
 
 This project aims to build a chatbot based on LLM models in Spanish to answer queries related to financial products for a banking entity. The chatbot should process documentation in diverse PDF formats, convert it into structured data, and provide accurate responses to questions posed by employees and customers.
 
+**[También en Español](https://github.com/Leci37/LLM-Financial-Chatbot-Spanish-Training-and-Development-from-Raw-PDFs/blob/main/README_ESPA%C3%91OL.md)**
+
+
 ## **Project Scope**
 
 - **Chatbot Features:**
