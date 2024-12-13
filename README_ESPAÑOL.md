@@ -337,6 +337,6 @@ El modelo actual solo devuelve información genérica como:
   Pregunta: "¿Cuál es la comisión de transferencias para Francia de 1000€?"
   Respuesta: "La comisión para Francia es 2%, lo que equivale a: 1000€ × 2% = 20€."
   ```
-**Implementación con LangChain**:
+-  **Implementación con LangChain**:
   Analiza la pregunta para identificar si requiere cálculos específicos.
   Redirige los cálculos necesarios a un entorno Python.
