@@ -345,6 +345,6 @@ The current model only returns generic information such as:
   # Question: "What is the transfer commission for France on €1,000?"
   # Answer: "The commission for France is 2%, which equals: €1,000 × 2% = €20."
   ```
-**Implementation with LangChain**:
+-  **Implementation with LangChain**:
   Analyzes the question to identify if specific calculations are required.
   Redirects necessary calculations to a Python environment.
