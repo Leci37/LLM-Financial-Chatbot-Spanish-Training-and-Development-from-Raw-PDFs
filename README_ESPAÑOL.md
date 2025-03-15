@@ -302,6 +302,8 @@ Ejemplo de estructura JSON:
 Incluir mayor variabilidad lingüística para evitar respuestas repetitivas y robóticas.
 Uso de herramientas como **ChatGPT API (GPT-4)** o **Llama Index** para generar preguntas/respuestas más naturales y diversificadas.
 
+-  **Reentrenar modelos públicos de DeepSeek** https://huggingface.co/deepseek-ai/DeepSeek-V3 
+
 -  **Implementar Modelos de Preprocesamiento Semántico**
 **spaCy** o **Sentence-BERT**:
   Detectar y eliminar redundancias en las respuestas.
