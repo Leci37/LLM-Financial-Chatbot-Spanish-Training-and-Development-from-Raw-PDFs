@@ -308,6 +308,9 @@ Example of JSON structure:
 Include greater linguistic variability to avoid repetitive and robotic responses.
 Use tools like **ChatGPT API (GPT-4)** or **Llama Index** to generate more natural and diverse questions/answers.
 
+-  **Retraining DeepSeek's public models**
+https://huggingface.co/deepseek-ai/DeepSeek-V3
+
 -  **Implement Semantic Preprocessing Models**
 **spaCy** or **Sentence-BERT**:
   Detect and eliminate redundancies in the responses.
