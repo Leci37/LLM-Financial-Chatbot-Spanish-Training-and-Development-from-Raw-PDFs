@@ -1,0 +1,8 @@
+# Trained models, checkpoints and logs (finchat/paths.py creates outputs/)
+outputs/
+# Written by pipeline/1_extract_all.py; the curated per-document files are _1_w1.json ... _1_w5.json
+data/processed/extracted_word_data.json
+__pycache__/
+*.egg-info/
+.venv/
+venv/

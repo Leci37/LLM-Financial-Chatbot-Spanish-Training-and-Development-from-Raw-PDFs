@@ -2,6 +2,8 @@ import spacy
 import json
 from difflib import SequenceMatcher
 
+from finchat.paths import PROCESSED
+
 # Load a Spanish NLP model
 nlp = spacy.load("es_core_news_md")
 
@@ -102,9 +104,9 @@ def validate_and_filter_json(input_file, validation_output_file, filtered_output
 
 
 # Input and output file paths
-input_file = "processed/_2_generated_prompts_FULL.json"
-validation_output_file = "processed/_3_generated_prompts_clean.json"
-filtered_output_file = "processed/_3_generated_prompts_FULL.json"
+input_file = f"{PROCESSED}/_2_generated_prompts_FULL.json"
+validation_output_file = f"{PROCESSED}/_3_generated_prompts_clean.json"
+filtered_output_file = f"{PROCESSED}/_3_generated_prompts_FULL.json"
 
 # Run validation and filtering
 validate_and_filter_json(input_file, validation_output_file, filtered_output_file)

@@ -1,16 +1,18 @@
 import json
 
+from finchat.paths import PROCESSED
+
 # File paths for JSON files
 json_files = [
-    'processed/_1_w1.json',
-    'processed/_1_w2.json',
-    'processed/_1_w3.json',
-    'processed/_1_w4.json',
-    'processed/_1_w5.json'
+    f'{PROCESSED}/_1_w1.json',
+    f'{PROCESSED}/_1_w2.json',
+    f'{PROCESSED}/_1_w3.json',
+    f'{PROCESSED}/_1_w4.json',
+    f'{PROCESSED}/_1_w5.json'
 ]
 
 # Output JSON file
-output_file = 'processed/_1_combined.json'
+output_file = f'{PROCESSED}/_1_combined.json'
 
 # Initialize combined structure
 combined_data = {

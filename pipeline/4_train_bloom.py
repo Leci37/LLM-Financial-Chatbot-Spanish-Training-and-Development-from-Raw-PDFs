@@ -13,6 +13,8 @@ from transformers import (
 from nltk.translate.bleu_score import sentence_bleu
 import torch
 
+from finchat.paths import OUTPUTS, PROCESSED
+
 # Validate JSON structure
 def validate_json(data):
     for entry in data:
@@ -22,7 +24,7 @@ def validate_json(data):
             raise ValueError("Both 'prompt' and 'response' must be strings.")
 
 # Load and validate JSON file
-with open("processed/_2_generated_prompts_FULL.json", "r", encoding="utf-8") as f:
+with open(f"{PROCESSED}/_2_generated_prompts_FULL.json", "r", encoding="utf-8") as f:
     data = json.load(f)
     validate_json(data)
 
@@ -113,8 +115,8 @@ class EvaluationCallback(TrainerCallback):
 
 # Training Arguments
 training_args = TrainingArguments(
-    output_dir="./m-bloom_560",
-    evaluation_strategy="epoch",
+    output_dir=f"{OUTPUTS}/m-bloom_560",
+    eval_strategy="epoch",
     eval_steps=50,
     # save_steps=50,
     per_device_train_batch_size=4,
@@ -124,7 +126,7 @@ training_args = TrainingArguments(
     save_total_limit=9,
     num_train_epochs=3,
     fp16=True,
-    logging_dir="./m-bloom_560/logs"
+    logging_dir=f"{OUTPUTS}/m-bloom_560/logs"
 )
 
 # Device Setup
@@ -145,7 +147,7 @@ trainer = Trainer(
             model,
             tokenizer,
             device,
-            output_dir="./m-bloom_560"
+            output_dir=f"{OUTPUTS}/m-bloom_560"
         ),
     ],
 )
@@ -153,9 +155,6 @@ trainer = Trainer(
 # Train the Model
 trainer.train()
 
-# Train the Model
-trainer.train()
-
 # Save the Model
-trainer.save_model("./m-bloom_560")
-tokenizer.save_pretrained("./m-bloom_560")
+trainer.save_model(f"{OUTPUTS}/m-bloom_560")
+tokenizer.save_pretrained(f"{OUTPUTS}/m-bloom_560")

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finchat"
+version = "0.1.0"
+description = "Spanish financial chatbot: bank PDFs -> structured JSON -> question/answer pairs -> fine-tuned LLM"
+readme = "README.md"
+requires-python = ">=3.9"
+
+# Dependencies are in requirements.txt; this only makes finchat/ importable from pipeline/ (pip install -e .).
+[tool.setuptools.packages.find]
+include = ["finchat*"]

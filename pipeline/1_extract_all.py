@@ -1,13 +1,15 @@
 from docx import Document
 import json
 
+from finchat.paths import RAW, PROCESSED
+
 # List of Word documents to process
 WORD_LIST = [
-    "raw/W1_Tarifas transferencias Extranjero.docx",
-    "raw/W2_Ficha Tecnica.docx",
-    "raw/W3_Catalogo de productos de activo vigentes.docx",
-    "raw/W4_2023_12_Posicionamiento_Environment-1.docx",
-    "raw/W5_2023_12_Posicionamiento_Environment-2.docx",
+    f"{RAW}/W1_Tarifas transferencias Extranjero.docx",
+    f"{RAW}/W2_Ficha Tecnica.docx",
+    f"{RAW}/W3_Catalogo de productos de activo vigentes.docx",
+    f"{RAW}/W4_2023_12_Posicionamiento_Environment-1.docx",
+    f"{RAW}/W5_2023_12_Posicionamiento_Environment-2.docx",
 ]
 
 
@@ -75,6 +77,6 @@ def save_to_json(data, output_path):
 
 # Process the .docx files and save the results
 extracted_data = process_all_docx_files(WORD_LIST)
-save_to_json(extracted_data, "extracted_word_data.json")
+save_to_json(extracted_data, f"{PROCESSED}/extracted_word_data.json")
 
-print("Extraction complete. Data saved to 'extracted_word_data.json'.")
+print(f"Extraction complete. Data saved to {PROCESSED}/extracted_word_data.json")
