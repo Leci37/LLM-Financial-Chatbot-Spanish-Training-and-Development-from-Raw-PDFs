@@ -3,11 +3,13 @@ import json
 import re
 from transformers import pipeline
 
+from finchat.paths import RAW, PROCESSED
+
 # Load summarization pipeline
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn", tokenizer="facebook/bart-large-cnn")
 
 # Input file path
-FILE_PATH = "raw/W1_Tarifas transferencias Extranjero.docx"
+FILE_PATH = f"{RAW}/W1_Tarifas transferencias Extranjero.docx"
 
 
 def generate_title(content, max_length=10):
@@ -188,7 +190,7 @@ def save_to_json(data, output_path):
 parsed_data = parse_docx_to_json(FILE_PATH)
 
 # Save the output to JSON
-OUTPUT_PATH = "processed/W1_Tarifas_transferencias.json"
+OUTPUT_PATH = f"{PROCESSED}/W1_Tarifas_transferencias.json"
 save_to_json(parsed_data, OUTPUT_PATH)
 
 print(f"Processing complete. Data saved to {OUTPUT_PATH}")

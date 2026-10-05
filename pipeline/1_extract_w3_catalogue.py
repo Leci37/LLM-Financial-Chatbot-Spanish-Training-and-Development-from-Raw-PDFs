@@ -1,6 +1,8 @@
 from docx import Document
 import json
 
+from finchat.paths import PROCESSED, RAW
+
 
 def parse_docx_to_json(docx_path):
     """
@@ -74,8 +76,8 @@ def save_to_json(data, output_path):
 
 
 # File path for input and output
-INPUT_FILE = "raw/W3_Catalogo de productos de activo vigentes.docx"
-OUTPUT_FILE = "processed/W3_Catalogo de productos de activo vigentes.json"
+INPUT_FILE = f"{RAW}/W3_Catalogo de productos de activo vigentes.docx"
+OUTPUT_FILE = f"{PROCESSED}/W3_Catalogo de productos de activo vigentes.json"
 
 # Parse the file and save the output
 parsed_data = parse_docx_to_json(INPUT_FILE)

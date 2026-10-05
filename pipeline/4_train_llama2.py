@@ -10,13 +10,15 @@ from sklearn.model_selection import train_test_split
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 
+from finchat.paths import OUTPUTS, PROCESSED
+
 print("Transformers version:", transformers.__version__)
 print("Datasets version:", datasets.__version__)
 print("NLTK version:", nltk.__version__)
 print("Torch version:", torch.__version__)
 
 # Load the dataset
-data_file = "processed/_2_generated_prompts_FULL.json"
+data_file = f"{PROCESSED}/_2_generated_prompts_FULL.json"
 with open(data_file, "r", encoding="utf-8") as file:
     data = json.load(file)
 
@@ -33,7 +35,7 @@ train_dataset = Dataset.from_dict({"prompt": train_prompts, "response": train_re
 test_dataset = Dataset.from_dict({"prompt": test_prompts, "response": test_responses})
 
 # Tokenizer and Model
-model_name = "meta-llama/Llama-2-7b"
+model_name = "meta-llama/Llama-2-7b-hf"  # the Transformers copy; "Llama-2-7b" holds only the original checkpoint
 tokenizer = LlamaTokenizer.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(model_name, device_map="auto")
 
@@ -51,16 +53,16 @@ tokenized_test = test_dataset.map(preprocess_data, batched=True)
 
 # Training Arguments
 training_args = TrainingArguments(
-    output_dir="./llama2-chatbot-spanish",
+    output_dir=f"{OUTPUTS}/llama2-chatbot-spanish",
     overwrite_output_dir=True,
     num_train_epochs=3,
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
     save_steps=500,
     save_total_limit=2,
-    evaluation_strategy="steps",
+    eval_strategy="steps",
     eval_steps=200,
-    logging_dir="./logs",
+    logging_dir=f"{OUTPUTS}/logs",
     logging_steps=50,
     learning_rate=5e-5,
     warmup_steps=100,
@@ -86,8 +88,8 @@ metrics = trainer.evaluate()
 print("Evaluation Metrics:", metrics)
 
 # Save the fine-tuned model
-trainer.save_model("./llama2-chatbot-spanish")
-tokenizer.save_pretrained("./llama2-chatbot-spanish")
+trainer.save_model(f"{OUTPUTS}/llama2-chatbot-spanish")
+tokenizer.save_pretrained(f"{OUTPUTS}/llama2-chatbot-spanish")
 
 # Define Evaluation Metrics
 def evaluate_bleu(predictions, references):
@@ -134,5 +136,5 @@ evaluation_results = {
     "bleu_score": bleu_score,
     "rouge_scores": rouge_scores,
 }
-with open("evaluation_results.json", "w", encoding="utf-8") as file:
+with open(f"{OUTPUTS}/evaluation_results.json", "w", encoding="utf-8") as file:
     json.dump(evaluation_results, file, ensure_ascii=False, indent=4)

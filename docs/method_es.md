@@ -52,11 +52,11 @@ Este chatbot será una herramienta útil para empleados y clientes, simplificand
 ### **Los documentos convertidos a `.docx` son:**
 ```python
 WORD_LIST = [
-    "raw/W1_Tarifas transferencias Extranjero.docx",
-    "raw/W2_Ficha Tecnica.docx",
-    "raw/W3_Catalogo de productos de activo vigentes.docx",
-    "raw/W4_2023_12_Posicionamiento_Environment-1.docx",
-    "raw/W5_2023_12_Posicionamiento_Environment-2.docx"
+    "data/raw/W1_Tarifas transferencias Extranjero.docx",
+    "data/raw/W2_Ficha Tecnica.docx",
+    "data/raw/W3_Catalogo de productos de activo vigentes.docx",
+    "data/raw/W4_2023_12_Posicionamiento_Environment-1.docx",
+    "data/raw/W5_2023_12_Posicionamiento_Environment-2.docx"
 ]
 ```
 
@@ -105,8 +105,8 @@ Ejemplo de estructura JSON:
 ## **2. Generación de Preguntas y Respuestas**
 
 ### **Herramientas Utilizadas**
-- `_2_1_Generate Prompts_sections.py`: Para generar preguntas a partir de secciones (párrafos).
-- `_2_2_Generate Prompts_table.py`: Para generar preguntas basadas en tablas.
+- `pipeline/2_questions_sections.py`: Para generar preguntas a partir de secciones (párrafos).
+- `pipeline/2_questions_tables.py`: Para generar preguntas basadas en tablas.
 
 
 ### **Generación de Preguntas para Secciones-Párrafos**
@@ -287,7 +287,7 @@ Ejemplo de estructura JSON:
      - Genera respuestas para preguntas de evaluación y las muestra en consola.
 
 #### **Validación Final**
-- **Script Utilizado**: `_5_evaluate_mT5_small.py`.
+- **Script Utilizado**: `_5_evaluate_mT5_small.py` (no está en el repositorio).
 - **Tareas Realizadas**:
   - Pruebas finales de las respuestas generadas por los modelos.
   - Evaluación de consistencia y naturalidad de las respuestas.

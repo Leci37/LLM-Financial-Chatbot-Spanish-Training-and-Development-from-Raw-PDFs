@@ -2,15 +2,16 @@ import json
 import spacy
 
 # Load the Spanish spaCy model
-from _utils import generate_questions_by_NLP
-from _validation import validate_prompt_response_NLP
-from _google_generate_ask import generate_questions_by_Model
+from finchat.questions import generate_questions_by_NLP
+from finchat.validation import validate_prompt_response_NLP
+from finchat.google_generate_ask import generate_questions_by_Model
+from finchat.paths import PROCESSED
 
 nlp = spacy.load("es_core_news_md")
 
 # File paths
-input_file = "processed/_1_combined.json"
-output_file = "processed/_2_generated_prompts_FULL.json"
+input_file = f"{PROCESSED}/_1_combined.json"
+output_file = f"{PROCESSED}/_2_generated_prompts_FULL.json"
 
 def generate_prompts_and_responses(input_file, output_file):
     # Load the input JSON file

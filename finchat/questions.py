@@ -7,7 +7,7 @@ import unicodedata
 import language_tool_python
 
 # Initialize Spanish grammar checker
-from _google_generate_ask import generate_question
+from finchat.google_generate_ask import generate_question
 
 tool = language_tool_python.LanguageTool("es")
 

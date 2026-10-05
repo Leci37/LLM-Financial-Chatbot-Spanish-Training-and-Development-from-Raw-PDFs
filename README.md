@@ -1,353 +1,130 @@
-#### Documentation for the Development of a Financial Chatbot with LLM Models
+# Spanish financial chatbot: training data from bank PDFs
 
-This project aims to build a chatbot based on LLM models in Spanish to answer queries related to financial products for a banking entity. The chatbot should process documentation in diverse PDF formats, convert it into structured data, and provide accurate responses to questions posed by employees and customers.
+**[En español](README_ES.md)**
 
-**[También en Español](https://github.com/Leci37/LLM-Financial-Chatbot-Spanish-Training-and-Development-from-Raw-PDFs/blob/main/README_ESPA%C3%91OL.md)**
+Five documents from a Spanish bank (Caja de Ingenieros: international transfer fees, a fund's
+fact sheet, the loan catalogue and two notes on the CI Environment ISR fund, 43 pages in all)
+become **question/answer pairs in Spanish**, and two language models, BLOOM-560m and Llama-2-7B,
+are fine-tuned on them. The goal was a chatbot that answers questions such as *"¿Qué requisitos
+hay que cumplir para solicitar un préstamo postgrado?"*. The repository stops at the training
+scripts: it has no chat interface and no trained model.
 
+<p align="center">
+  <img src="docs/img/pdf_to_json.png" alt="Page 1 of the transfer fee PDF, a table of channels, currencies, limits and fees, next to the JSON step 1 extracts from it: the table title and its rows as lists of cells. A red note says the column names are not kept." width="900">
+</p>
 
-## **Project Scope**
+## The pipeline
 
-- **Chatbot Features:**
-  - Ability to answer questions about: **International Transfers**, **Investment Funds**, **Active Loans** and **Investment Options**
-
-- **Data Sources:**
-  - Provided PDF documents in diverse formats, organized in the `raw/` folder:
-    - `W1_Tarifas transferencias Extranjero.pdf`
-    - `W2_Ficha Tecnica.pdf`
-    - `W3_Catalogo de productos de activo vigentes.pdf`
-    - `W4_2023_12_Posicionamiento_Environment-1.pdf`
-    - `W5_2023_12_Posicionamiento_Environment-2.pdf`
-
-- **Data Processing:**
-  - Conversion of PDF documents into `.docx` format to facilitate extraction.
-  - Transformation into JSON structures, with data categorized into:
-    - Text Sections: titles and content.
-    - Structured Tables: titles and organized data.
-
-## **Example Questions Answered**
-the answers to these questions are found inside the .pdf in various formats such as tables
-1. **Transfers outside the Euro Zone:**
-   - ¿Puedes calcularme las comisiones para una transferencia fuera de la Zona €, de 10.000€ con las comisiones a cargo del socio?
-   _- Can you calculate the fees for a transfer outside the Euro Zone of €10,000 with the fees borne by the partner?_
-
-3. **Investment Funds:**
-   - ¿Qué nivel de riesgo tiene el fondo de inversión, CI Environment ISR?
-   _- What is the risk level of the investment fund CI Environment ISR?_
-
-5. **Active Loans:**
-   - ¿Qué requisitos hay que cumplir para solicitar un préstamo postgrado?
-   _- What are the requirements to apply for a postgraduate loan?_
-
-This chatbot will be a valuable tool for employees and customers, simplifying access to financial information and enhancing user experience.
-
-
-## **0. Preliminary Evaluation and Transformation (from .pdf to .docx)**
-
-### **Initial Document Evaluation:**
-- The downloaded `.pdf` documents contain:
-  - Structured text sections (descriptive paragraphs).
-  - Tables with various formats and financial data.
-- The documents exhibit a wide variety of styles and formats, making uniform extraction challenging using a single method.
-
-### **Conversion to .docx Format:**
-- Multiple tools were evaluated, with **iLovePDF** selected for its high-quality conversion, particularly in preserving tables.
-
-### **Manual Validation of the Conversion:**
-- Verified that the tables were correctly represented.
-
-### **Documents converted to `.docx` are:**
-```python
-WORD_LIST = [
-    "raw/W1_Tarifas transferencias Extranjero.docx",
-    "raw/W2_Ficha Tecnica.docx",
-    "raw/W3_Catalogo de productos de activo vigentes.docx",
-    "raw/W4_2023_12_Posicionamiento_Environment-1.docx",
-    "raw/W5_2023_12_Posicionamiento_Environment-2.docx"
-]
+```mermaid
+flowchart LR
+    A["data/raw<br/>5 PDFs, each also as .docx"] -->|"1 extract"| B["_1_w1 … _1_w5.json<br/>sections and tables"]
+    B -->|"1b join"| C["_1_combined.json<br/>36 sections, 117 tables"]
+    C -->|"2 questions"| D["_2_generated_prompts_FULL.json<br/>7,365 pairs"]
+    D -->|"3 validate"| E["_3_generated_prompts_FULL.json<br/>1,256 pairs"]
+    D -->|"4 train"| F["outputs/<br/>BLOOM-560m, Llama-2-7B"]
 ```
 
-## **1. Data Extraction (from docx to .json)**
+| Step | Script in `pipeline/` | What it does | Runs? |
+|---|---|---|---|
+| 1 | `1_extract_all.py`, `1_extract_w1_fees.py`, `1_extract_w3_catalogue.py` | reads the `.docx` with python-docx: text sections and tables to JSON | yes, CPU |
+| 1b | `1b_join.py` | joins the five per-document files into `_1_combined.json` | yes |
+| 2 | `2_questions_sections.py`, `2_questions_tables.py` | questions from templates, spaCy entities and Spanish question-generation models | **no**, see [known issues](#known-issues) |
+| 3 | `3_validate.py` | scores each pair by shared keywords and text similarity | yes, about 2 min on CPU |
+| 4 | `4_train_bloom.py`, `4_train_llama2.py` | fine-tunes on the step 2 pairs | needs a GPU; checked on CPU with a tiny BLOOM |
 
-### **What is spaCy NLP and why is it used for classification?**
-```python
-import spacy 
-nlp = spacy.load("es_core_news_md")
-```
-The **spaCy** model is useful for classifying content because it analyzes the text and assigns relevant semantic and grammatical information, facilitating tasks such as:
+The step 2 output, and what step 3 thinks of it:
 
-- Detects important elements in a text and classifies them into predefined categories:
-  - **MONEY**: Monetary amounts.
-  - **DATE**: Dates.
-  - **ORG**: Organizations.
-  - **PERCENT**: Percentages.
+<p align="center">
+  <img src="docs/img/dataset.png" alt="Bar chart. Step 2 generated 7,365 pairs: 7,125 from tables, 220 from text, 20 hand-written; step 4 trains on all of them. Step 3's filter keeps 1,256. Only 20 pass both of step 3's checks." width="900">
+</p>
 
-### **Objective**
-- Convert the content of `.docx` files into a structured `.json` format.  
-  The structure is divided into:
-  - **Paragraphs:** Title and content.
-  - **Tables:** Title and data (the first row of data corresponds to the column name).
+Two pairs from the dataset, one from a text section and one from a table:
 
-Example of JSON structure:
-```json
-{
-    "sections": [
-        {
-            "title": "Título de la sección",
-            "content": "Contenido relacionado con el título."
-        }
-    ],
-    "tables": [
-        {
-            "title": "Título de la tabla",
-            "data": [
-                ["Columna1", "Columna2", "Columna3"],
-                ["Dato1", "Dato2", "Dato3"]
-            ]
-        }
-    ]
-}
+```text
+P: Para las transferencias no STP, ¿ qué tipo de comisión requiere una comisión adicional?
+R: Para transferencias No STP (“Straight Through Processing”) se percibe una comisión adicional
+   de 15€ por falta de BIC/IBAN o por datos incorrectos. Debe informarse al ordenante.
+
+P: ¿Qué detalles están asociados con la ubicación para el elemento 'Target – 2' en la tabla
+   'transferencias extrangero TRANSFERENCIAS EMITIDAS'?
+R: EUR: EUR | ----: ---- | Nacionales/Internacionales dentro de la UE (…): Nacionales (OMF-España)
+   Urgentes mismo día | … | 0 €: 2,5‰ Mín. 10€ Máx. 100€
 ```
 
-## **2. Question and Answer Generation**
+The second answer pairs every value with a value of the SEPA row instead of a column name: that
+is the missing header in the image above. [docs/method.md](docs/method.md) is the original
+write-up of each step ([en español](docs/method_es.md)).
 
-### **Tools Used**
-- `_2_1_Generate Prompts_sections.py`: To generate questions from sections (paragraphs).
-- `_2_2_Generate Prompts_table.py`: To generate questions based on tables.
+## Run it
 
-### **Question Generation for Sections-Paragraphs**
+Tested with Python 3.11:
 
-#### **Method `generate_questions_by_NLP()`**
-- Generation based on the section title:
-  - These are generic, despite NLP-based thematic classification, and may result in "robotic" sounding questions:
-    ```python
-    f"¿Qué información general se describe en la sección '{title}'?"
-    ```
-- Customization based on detected entities (using NLP):
-  - For money-related questions, a specific nuance is provided:
-    ```python
-    if ent.label_ == "MONEY":
-        prompts.append(f"¿Cuáles son los costos asociados con {ent.text} mencionados en '{title}'?")
-        # What are the costs associated with {ent.text} mentioned in '{title}'?
-    ```
-- List of topics with specific questions:
-  ```python
-  entity_labels = [
-      "MONEY",    # Costs, fees, and financial calculations.
-      "ORG",      # Organizations, services, and products.
-      "PRODUCT",  # Products, features, and benefits.
-      "LOC",      # Locations and regulations.
-      "PERCENT",  # Percentages, calculations, and implications.
-      "DATE",     # Dates, events, and temporal relevance.
-      "TIME",     # Timelines and schedules.
-      "EVENT",    # Events and associated details.
-      "LAW",      # Regulations and legal requirements.
-      "QUANTITY", # Quantities and calculations.
-      "CARDINAL"  # Numbers and their contextual interpretation.
-  ]
-  ```
+```bash
+pip install -r requirements.txt && pip install -e .     # -e makes finchat/ importable from pipeline/
+python pipeline/1_extract_all.py                         # seconds; data/processed/extracted_word_data.json
+python pipeline/3_validate.py                            # ~2 min; rewrites data/processed/_3_*.json
+python pipeline/4_train_bloom.py                         # GPU; models and logs go to outputs/
+python tools/check_imports.py                            # what CI runs
+```
 
-#### **Method `generate_questions_by_Model()`**
-- Questions generated with the `mrm8488/bert2bert-spanish-question-generation` model:
-  - Uses the section title and paragraph as input.
-  - Automatically generates questions. **Note:** This model is suitable for educational purposes but not recommended for production.
+The scripts run from any folder: `finchat/paths.py` finds `data/` and `outputs/` from the
+repository root. Run on the current `_2_generated_prompts_FULL.json`, step 3 keeps 1,274 pairs
+and finds 25 valid, not the 1,256 and 20 of the committed files: those were made before the 20
+hand-written pairs were added.
 
-### **Validation of Generated Questions**
-- Questions whose NLP topic does not match the answer are discarded via:
-  ```python
-  validate_prompt_response_NLP()
-  ```
+## Layout
 
-### **Question Generation for Tables**
+```
+pipeline/         the steps, in order: 1_extract_*, 1b_join, 2_questions_*, 3_validate, 4_train_*
+finchat/          what the steps share: paths.py, questions.py (question templates and models),
+                  validation.py (does an answer match its question)
+data/raw/         the five documents: each PDF and the .docx made from it with iLovePDF
+data/processed/   the dataset: the JSON of steps 1 to 3, as in the chart above
+docs/             method.md and method_es.md (the original write-up), img/
+tools/            check_imports.py (CI), make_readme_figures.py (these images)
+legacy/           a helper module nothing imports and two superseded JSON files
+outputs/          models, checkpoints and logs from step 4 (not in git)
+```
 
-#### **1. `generate_General_table_questions`**
-- Generates general questions about an entire table.
-- **Note:** Discarded due to inefficiency in summaries using the `bert2bert_shared-spanish-finetuned-summarization` model.
+## Known issues
 
-#### **2. `generate_ROW_specific_questions`**
-- Generates specific questions for a table row, combining:
-  - Row data: Associated properties and values.
-  - NLP-based questions: Detects relevant entities such as percentages, dates, locations.
-  - Questions generated by models:
-    ```python
-    if ent.label_ == "MONEY":
-        nlp_questions.append({
-            "prompt": f"¿Qué costos están relacionados con el elemento '{row_reference}' en la tabla '{title}'?",
-    # f"What costs are related to the element '{row_reference}' in table '{title}'?"
-            "response": response_text
-        })
-    ```
+- **Step 2 cannot run.** It imports `generate_questions_by_Model` from
+  `finchat/google_generate_ask.py`, a module that was never committed.
+- **The dataset cannot be rebuilt from the scripts.** The inputs of the join, `_1_w1.json` to
+  `_1_w5.json`, were edited after step 1: for W3, step 1 finds 65 sections and 38 tables and
+  `_1_w3.json` has 6 and 91; W2, W4 and W5 hold more than step 1 extracts. `_1_combined.json`
+  was edited too (the join gives 119 tables, the file has 117). Treat `data/processed/` as the
+  source.
+- **W1's fee tables lose their column names** in step 1, so their answers read like the second
+  example above.
+- **Training uses the unfiltered pairs.** Both step 4 scripts read the step 2 output; nothing
+  reads step 3's.
+- **The labels do not teach the model to answer.** Both models are causal (decoder-only), but
+  the scripts give the question as input and the answer's tokens as labels, position by
+  position, padding included. For a causal model the input should be question and answer in
+  one sequence, with the labels masked (-100) over the question and the padding.
+- **The evaluation questions are in the training data.** The first 20 pairs of
+  `_2_generated_prompts_FULL.json` are hand-written answers to the 10 questions
+  `4_train_bloom.py` asks at its checkpoints, and BLOOM is evaluated on its own training set.
+- **Llama-2-7B is fully fine-tuned** in fp16. That needs well over 100 GB of GPU memory; LoRA
+  or QLoRA (the `peft` library) fits one GPU. The model is gated: accept Meta's licence on
+  Hugging Face first.
+- The documents are Caja de Ingenieros' own. Check that they may be republished here.
 
-#### **3. `generate_CELL_specific_questions`**
-- Generates specific questions for a table cell, using:
-  - **Cell Data:** Cell value with row and column headers.
-  - **NLP-based questions:** Analyzes detected entities.
-  - **Model-generated questions:** Crosses data between columns and rows:
-    ```python
-    if ent.label_ == "MONEY":
-        nlp_questions.append({
-            "prompt": f"¿Qué costos están relacionados con '{column_reference}' en relación con '{row_reference}'?",
-           # f"What costs are related to '{column_reference}' relative to '{row_reference}'?"
-            "response": response_text_CELL
-        })
-    ```
+For five documents whose fees and rates change, retrieval (search the extracted sections and
+tables, then let an instruction-tuned model answer from what it found, quoting the source)
+would likely serve better than fine-tuning, and needs no retraining when a document changes.
 
-### **Validation `validate_description()`**
-- Thematic verification between questions and answers using NLP.
+## What changed in this reorganisation
 
-### **Final Merge**
-- The `_2_generated_prompts_FULL.json` file was created by combining:
-  - `_2_generated_prompts_SECTIONS.json`
-  - `_2_generated_prompts_TABLE.json`
-
-
-## **3. Validation of the .json**
-
-### **Validation of `_2_generated_prompts_FULL.json`**
-- Verified the correspondence between questions and answers based on keywords and thematic alignment:
-  ```python
-  doc_prompt = nlp(prompt)
-  doc_response = nlp(response)
-  keywords_prompt = {token.text.lower() for token in doc_prompt if not token.is_stop and token.is_alpha}
-  keywords_response = {token.text.lower() for token in doc_response if not token.is_stop and token.is_alpha}
-  ```
-
-#### **Observations**
-- Requires manual improvements or the use of more advanced language models.
-
-## **4. Training**
-
-### **Models Used**
-- `google/mt5-base`
-- `google/mt5-small`
-- `meta-llama/Llama-2-7b`
-- `bigscience/bloom-560m`
-
-### **Training Process for BLOOM**
-
-#### **Data Validation and Preprocessing**
-
-1. **JSON Validation**:
-   - Ensures each entry in the JSON file contains the keys `prompt` and `response`.
-   ```python
-   def validate_json(data):
-       for entry in data:
-           if "prompt" not in entry or "response" not in entry:
-               raise ValueError("Each entry must contain 'prompt' and 'response' keys.")
-   ```
-
-2. **Conversion to Dataset**:
-   - The validated JSON is converted into a Hugging Face-compatible dataset using the `{input_text, output_text}` format.
-
-3. **Tokenization**:
-   - Input texts (prompt) and output texts (response) are tokenized with truncation and padding up to a maximum of 512 tokens.
-   ```python
-   def preprocess_function(examples):
-       inputs = tokenizer(examples["input_text"], max_length=512, truncation=True, padding="max_length")
-       outputs = tokenizer(examples["output_text"], max_length=512, truncation=True, padding="max_length")
-       inputs["labels"] = outputs["input_ids"]
-       return inputs
-   ```
-
-##### **Metric Evaluation**
-
-- Metrics calculated on validation and test sets:
-  - **BLEU**: Measures precision in n-gram matches between generated and reference text.
-  - **ROUGE**: Evaluates recall-based similarities between generated and reference sequences.
-    - Calculated metrics: `rouge1`, `rouge2`, `rougeL`.
-  - **Loss**: Based on cross-entropy loss between model predictions and true labels.
-  ```python
-  def compute_metrics(eval_pred):
-      logits, labels = eval_pred 
-      metrics = {
-          "bleu": bleu["bleu"],
-          "rouge1": rouge["rouge1"],
-          "rouge2": rouge["rouge2"],
-          "rougeL": rouge["rougeL"],
-      }
-      return metrics
-  ```
-
-#### **Model Training**
-
-1. **Training Arguments**:
-   - Key parameters like learning rate, batch size, number of epochs, use of FP16 (mixed precision), and steps for saving checkpoints.
-   ```python
-   training_args = TrainingArguments(
-       output_dir="./m-bloom_560",
-       evaluation_strategy="epoch",
-       eval_steps=50,
-       per_device_train_batch_size=4,
-       learning_rate=2e-5,
-       save_steps=50,
-       num_train_epochs=3,
-       fp16=True,
-   )
-   ```
-
-2. **Device**:
-   - The model is trained on GPU if available (`cuda`), otherwise on CPU.
-
-3. **Callbacks**:
-   - **DebugCallback**: Displays training logs to monitor metrics and progress.
-   - **EvaluationCallback**: Every 50 steps:
-     - Saves a model checkpoint.
-     - Generates responses for evaluation questions and displays them in the console.
-
-#### **Final Validation**
-- **Script Used**: `_5_evaluate_mT5_small.py`.
-- **Tasks Performed**:
-  - Final tests on responses generated by the models.
-  - Evaluation of the consistency and naturalness of the responses.
-
-## **Final Observations**
-- For educational purposes, the result is adequate. At an **industrial level, significant improvements** are needed in the creation and validation of synthetic questions/answers, which currently sound robotic.
-
-## **5. Improvements**
-
--  **Increase Dataset Size**
-Include greater linguistic variability to avoid repetitive and robotic responses.
-Use tools like **ChatGPT API (GPT-4)** or **Llama Index** to generate more natural and diverse questions/answers.
-
--  **Retraining DeepSeek's public models**
-https://huggingface.co/deepseek-ai/DeepSeek-V3
-
--  **Implement Semantic Preprocessing Models**
-**spaCy** or **Sentence-BERT**:
-  Detect and eliminate redundancies in the responses.
-  Refine the format of the questions/answers.
-
--  **Semantic Analysis Tools**
-**AllenNLP** or **Hugging Face NLP Pipelines**:
-  Evaluate the thematic correspondence between questions and answers.
-
--  **Human Evaluation**
-Incorporate manual review cycles to ensure quality in the generated questions/answers.
-
--  **Migrate to Larger or Specialized Models**
-Use models like **GPT-4**, **Llama-2**, or **Claude** for generating more natural responses.
-
--  **Adjust Generation Techniques**
-Apply methods such as:
-  **Top-k Sampling**
-  **Nucleus Sampling (top-p)**
-  **Temperature**
-  Improve variability without losing coherence.
-
--  **Recommended Tools**
-1. **AllenNLP**: For detailed analysis of semantic dependencies in questions/answers.
-2. **Transformers Evaluate (Hugging Face)**: To implement advanced metrics like `BERTScore` and `METEOR`.
-
-
--  **Dynamic Calculations in the Chatbot**
-The current model only returns generic information such as:
-  _"The commission for France is 2%."_  
-**Objective**: Allow dynamic calculations to generate processed results:
-  ```
-  Pregunta: "¿Cuál es la comisión de transferencias para Francia de 1000€?"
-  Respuesta: "La comisión para Francia es 2%, lo que equivale a: 1000€ × 2% = 20€."
-  # Question: "What is the transfer commission for France on €1,000?"
-  # Answer: "The commission for France is 2%, which equals: €1,000 × 2% = €20."
-  ```
--  **Implementation with LangChain**:
-  Analyzes the question to identify if specific calculations are required.
-  Redirects necessary calculations to a Python environment.
+- Scripts moved to `pipeline/` with names in run order, shared code to the `finchat/` package,
+  documents and JSON to `data/`, the old READMEs to `docs/`, unused files to `legacy/`. Every
+  move is a `git mv`, so `git log --follow` still shows each file's history.
+- Paths no longer depend on the folder you run from.
+- `requirements.txt` asked for `docx==0.2.4` (a different, Python 2 package; the code needs
+  `python-docx`) and `transformers==4.18.0`, older than Llama 2. It now lists what the code
+  imports, the spaCy Spanish model included.
+- Step 4: `evaluation_strategy` (removed from current transformers) is now `eval_strategy`;
+  `4_train_bloom.py` called `trainer.train()` twice, so it trained 6 epochs, not 3; the Llama
+  model id is now `meta-llama/Llama-2-7b-hf`, the one Transformers can load.
+- A CI check that every `finchat` import resolves.
